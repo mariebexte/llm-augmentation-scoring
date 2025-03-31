@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ST.25b1.387.1	ST_25b1	1.0	To protect the baby seed.
+ST.25b1.388.1	ST_25b1	partially_correct_incomplete	To protect the seed.
+ST.25b1.389.1	ST_25b1	contradictory	Protect the plant.
+ST.25b1.391.1	ST_25b1	partially_correct_incomplete	Protect skin.
+ST.25b1.396.1	ST_25b1	partially_correct_incomplete	To protect the seed.
+ST.25b1.397.1	ST_25b1	partially_correct_incomplete	To protect the cotyledon.
+ST.25b1.399.1	ST_25b1	partially_correct_incomplete	To protect.
+ST.25b1.419.1	ST_25b1	irrelevant	The seed coat hold the seed.
+ST.25b1.451.1	ST_25b1	partially_correct_incomplete	The seed coat is for protection.
+ST.25b1.455.1	ST_25b1	contradictory	Protects the seedlings.
+ST.25b1.458.1	ST_25b1	partially_correct_incomplete	It is what covers the seed.
+ST.25b1.461.1	ST_25b1	partially_correct_incomplete	To protect it.
+ST.25b1.462.1	ST_25b1	partially_correct_incomplete	The seed coat helps keep the seed safe like our skin.
+ST.25b1.471.1	ST_25b1	partially_correct_incomplete	Outer layer protecting the seed.
+ST.25b1.473.1	ST_25b1	contradictory	To protect the seed when it is growing.
+ST.25b1.497.1	ST_25b1	irrelevant	Cover.
+ST.25b1.498.1	ST_25b1	partially_correct_incomplete	To protect the seed.
+ST.25b1.524.1	ST_25b1	partially_correct_incomplete	It protects cotyledon and embryo.
+ST.25b1.529.1	ST_25b1	partially_correct_incomplete	Protects the cotyledon and embryo.
+ST.25b1.530.1	ST_25b1	partially_correct_incomplete	Protect the baby plant.
+ST.25b1.540.1	ST_25b1	partially_correct_incomplete	Protects the embryo.
+ST.25b1.558.1	ST_25b1	partially_correct_incomplete	Protects the seed.
+ST.25b1.561.1	ST_25b1	partially_correct_incomplete	Protect the seed.
+ST.25b1.563.1	ST_25b1	partially_correct_incomplete	It protects the seed from harm.
+ST.25b1.564.1	ST_25b1	partially_correct_incomplete	Shell.
+ST.25b1.568.1	ST_25b1	partially_correct_incomplete	The protection of the seed.
+ST.25b1.569.1	ST_25b1	partially_correct_incomplete	Protects the seed.
+ST.25b1.570.1	ST_25b1	partially_correct_incomplete	Protects the seed.
+ST.25b1.571.1	ST_25b1	partially_correct_incomplete	Protects the seed.
+ST.25b1.572.1	ST_25b1	partially_correct_incomplete	A hard outer covering to act protects the cotyledon.
+ST.25b1.573.1	ST_25b1	partially_correct_incomplete	Protects the seed.
+ST.25b1.577.1	ST_25b1	irrelevant	Seed coat cracks.
+ST.25b1.596.1	ST_25b1	1.0	The seed coat protects the seed web germinating.
+ST.25b1.597.1	ST_25b1	partially_correct_incomplete	This is the outer layer that covers the seed.
+ST.25b1.632.1	ST_25b1	1.0	Protects the seed so it can grow.
+ST.25b1.640.1	ST_25b1	partially_correct_incomplete	Protect the cotyledon.
+ST.25b1.426.1	ST_25b1	1.0	To protect it.
+ST.25b1.456.1	ST_25b1	1.0	To protect the seed.
+ST.25b1.522.1	ST_25b1	1.0	It protects the cotyledon.
+ST.25b1.591.1	ST_25b1	1.0	To protect the seed.

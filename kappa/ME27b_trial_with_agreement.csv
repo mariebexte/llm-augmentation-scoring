@@ -1,0 +1,41 @@
+PromptID,AnswerText,Score,Annotation (KS),Annotation (MB),Annotation (TZ),Agree_MB_TZ,Agree_MB_KS,Agree_TZ_KS,Num_unique,Gold_annotation
+How can you use a magnet to find out if the key is iron or aluminum?,If it is iron it will stick if it is aluminum it will not stick.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,It will be made of iron if it sticks to a magnet.,1.0,1.0,partially_correct_incomplete,1.0,False,False,True,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,The magnet will stick to iron not to aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If it is iron it will stick.,1.0,1.0,partially_correct_incomplete,1.0,False,False,True,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,I will stick or not stick.,partially_correct_incomplete,contradictory,partially_correct_incomplete,partially_correct_incomplete,True,False,False,2,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,It will stick to iron.,1.0,1.0,partially_correct_incomplete,1.0,False,False,True,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,By testing it with a magnet and it will stick if it is iron.,1.0,1.0,partially_correct_incomplete,1.0,False,False,True,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If the key sticks it is made of iron if it does not it is made of aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If it is iron the key will stick if it is aluminum it would not stick.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,Aluminum will stick to a magnet.,contradictory,contradictory,contradictory,contradictory,True,True,True,1,contradictory
+How can you use a magnet to find out if the key is iron or aluminum?,If it were iron it would stick.,1.0,1.0,partially_correct_incomplete,1.0,False,False,True,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,You could get something with magnitite in it and see if it sticks if it sticks you know it is iron if it does not stick it is aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,Test it on a magnet.,irrelevant,1.0,irrelevant,irrelevant,True,False,False,2,irrelevant
+How can you use a magnet to find out if the key is iron or aluminum?,The magnet will stick.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,irrelevant,False,True,False,2,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,The key will stick if it is iron but if it is aluminum it will not.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,You will put a magnet on it and see if it sticks.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,If it is iron it will stick if it is aluminum it will not stick.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If the key sticks.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,The magnet will stick.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,If the magnet attracts or not.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,You will know because the magnet will stick or not.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,If the key is iron it will attract if it is not it will repel.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,By sticking the key to a magnet and try it out.,partially_correct_incomplete,partially_correct_incomplete,irrelevant,partially_correct_incomplete,False,False,True,2,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,If it attracts or drops when you let it go.,irrelevant,irrelevant,partially_correct_incomplete,partially_correct_incomplete,True,False,False,2,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,If the key attracts is iron. If it repels is aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,You would find the answer.,non_domain,non_domain,non_domain,non_domain,True,True,True,1,non_domain
+How can you use a magnet to find out if the key is iron or aluminum?,It will stick to iron and not aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,You can try it out altogether.,non_domain,non_domain,non_domain,non_domain,True,True,True,1,non_domain
+How can you use a magnet to find out if the key is iron or aluminum?,I will put it on a nail.,irrelevant,irrelevant,non_domain,non_domain,True,False,False,2,non_domain
+How can you use a magnet to find out if the key is iron or aluminum?,You will know because it will stick to a magnet.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,Because if it sticked it was iron if it did not it is aluminum.,1.0,partially_correct_incomplete,1.0,1.0,True,False,False,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If it sticks then it is a magnet if it does not then it is not.,contradictory,contradictory,irrelevant,contradictory,False,False,True,2,contradictory
+How can you use a magnet to find out if the key is iron or aluminum?,You can get a key and a iron nail and aluminum foil and see if it sticks.,partially_correct_incomplete,contradictory,irrelevant,partially_correct_incomplete,False,False,False,3,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,"If it repels aluminum if it sticks iron, attract.",1.0,partially_correct_incomplete,1.0,1.0,True,False,False,2,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,I will know when it sticks or it repels.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How can you use a magnet to find out if the key is iron or aluminum?,It will fall off the magnet.,partially_correct_incomplete,irrelevant,partially_correct_incomplete,irrelevant,False,False,True,2,irrelevant
+How can you use a magnet to find out if the key is iron or aluminum?,You will know because if it sticks it is iron if it does not it is aluminum.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,"If it attracts, it is iron. If it does not, it is aluminum.",1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,If it is iron it will stick to a magnet if it is aluminum it will not.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How can you use a magnet to find out if the key is iron or aluminum?,Iron will stick. Aluminum will not stick.,1.0,1.0,1.0,1.0,True,True,True,1,1.0

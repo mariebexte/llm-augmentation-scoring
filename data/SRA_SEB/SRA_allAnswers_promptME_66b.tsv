@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.66b.101.1	ME_66b	1.0	Yes because a piece of foil is not steel.
+ME.66b.107.1	ME_66b	1.0	Yes, because it is made of some kind of metal and it can conduct electricity.
+ME.66b.111.1	ME_66b	contradictory	Yes the electrical well go through it is some kind of steel or iron.
+ME.66b.113.1	ME_66b	partially_correct_incomplete	Yes because it lets electricity flow through.
+ME.66b.118.1	ME_66b	1.0	Yes it is metal.
+ME.66b.119.1	ME_66b	1.0	Yes because it is a conductor.
+ME.66b.140.1	ME_66b	partially_correct_incomplete	Yes because that object can hold electricity throughout.
+ME.66b.141.1	ME_66b	contradictory	No, because it is not made out of metal.
+ME.66b.142.1	ME_66b	1.0	Yes because it has iron in it.
+ME.66b.146.1	ME_66b	contradictory	Yes and no it has to have iron in it.
+ME.66b.154.1	ME_66b	1.0	Yes you can because it has metal conductors have to have metal in them to work.
+ME.66b.176.1	ME_66b	1.0	Yes because aluminum is a type of metal.
+ME.66b.179.1	ME_66b	1.0	Yes you can because it does have metal in it.
+ME.66b.180.1	ME_66b	contradictory	No because it will not let electricity flow and it is not metal.
+ME.66b.181.1	ME_66b	1.0	Yes you can because it is a conductor.
+ME.66b.190.1	ME_66b	1.0	Yes, because it has a little bit of metal in it.
+ME.66b.191.1	ME_66b	partially_correct_incomplete	Yes you could because electricity could go through aluminum foil.
+ME.66b.192.1	ME_66b	partially_correct_incomplete	Yes you could because the aluminum foil will go through the circuit.
+ME.66b.206.1	ME_66b	partially_correct_incomplete	Yes because foil can very well convert electricity.
+ME.66b.208.1	ME_66b	contradictory	No, because it does not have electricity in it.
+ME.66b.214.1	ME_66b	1.0	Yes you could because it is a type of a conductor.
+ME.66b.215.1	ME_66b	1.0	Yes, because electricity can go through foil.
+ME.66b.216.1	ME_66b	contradictory	No, if you use aluminum foil it still will not work.
+ME.66b.220.1	ME_66b	contradictory	No you need a wire to make the connection.
+ME.66b.224.1	ME_66b	contradictory	You can try, but I think it would not work.
+ME.66b.225.1	ME_66b	contradictory	No, because aluminum foil still does not have a path of electricity.
+ME.66b.226.1	ME_66b	1.0	Yes because aluminum foil is different than string and foil is metal.
+ME.66b.228.1	ME_66b	contradictory	No, because aluminum is just like paper and paper cannot light up things either.
+ME.66b.245.1	ME_66b	contradictory	No, because it is not big enough.
+ME.66b.247.1	ME_66b	1.0	Yes why because aluminum is foil and foil is metal.
+ME.66b.250.1	ME_66b	partially_correct_incomplete	Yes, because the electricity can flow through aluminum.
+ME.66b.251.1	ME_66b	1.0	Yes, you can. That is because aluminum is a conductor of electricity.
+ME.66b.253.1	ME_66b	partially_correct_incomplete	Yes. Because aluminum foil is good conductor.
+ME.66b.280.1	ME_66b	partially_correct_incomplete	Yes because aluminum foil is a conductor.
+ME.66b.314.1	ME_66b	contradictory	Why not it will not work because aluminum foil do not have no wire to go through.
+ME.66b.323.1	ME_66b	partially_correct_incomplete	You can use a piece of aluminum foil because it will connection.
+ME.66b.143.1	ME_66b	partially_correct_incomplete	Yes because it is aluminum.
+ME.66b.178.1	ME_66b	1.0	Yes, it has metal in it.
+ME.66b.207.1	ME_66b	contradictory	No because it is not wires.
+ME.66b.227.1	ME_66b	contradictory	No, because it cannot attract electricity or get power.

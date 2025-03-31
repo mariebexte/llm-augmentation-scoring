@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.30.101.1	ME_30	1.0	The car is made of iron or steel.
+ME.30.105.1	ME_30	1.0	Cars have iron or steel in them so they might attract to the magnets.
+ME.30.107.1	ME_30	irrelevant	If the car stops and waits a little while then the stoplight changes on the other side so the car can go.
+ME.30.108.1	ME_30	1.0	It is iron or steel.
+ME.30.111.1	ME_30	irrelevant	It stop the magnet.
+ME.30.113.1	ME_30	irrelevant	It might hit the electricity to make it work.
+ME.30.115.1	ME_30	1.0	The car is made of iron and steel and magnets only stick to iron or steel. So when the car stops it triggers the stoplight.
+ME.30.118.1	ME_30	1.0	Cars are made of steel and steel is attracted to magnetism.
+ME.30.119.1	ME_30	1.0	The car has iron or steel on it so the magnet sends a signal.
+ME.30.121.1	ME_30	1.0	It triggers because the car is made of steel.
+ME.30.123.1	ME_30	irrelevant	If the car goes over the magnet faster than 5 miles per hour it should turn green.
+ME.30.144.1	ME_30	1.0	The car could be made of iron.
+ME.30.148.1	ME_30	1.0	The metal of the tire rim or under the car or the outside of the car except the windows. Only if the metal has iron.
+ME.30.155.1	ME_30	irrelevant	A car can signal the magnet to a light by a car stopping and the other moving.
+ME.30.159.1	ME_30	irrelevant	So the cars can go.
+ME.30.173.1	ME_30	1.0	It does that because the magnet in the light attracts to the iron on the car.
+ME.30.180.1	ME_30	1.0	The car is made out of iron so they can attract.
+ME.30.181.1	ME_30	irrelevant	It might be going too fast.
+ME.30.189.1	ME_30	1.0	The pipes and poles under the car iron.
+ME.30.191.1	ME_30	irrelevant	There could be a magnet under the ground maybe.
+ME.30.192.1	ME_30	1.0	It does that because the magnet in the light attracts to the iron on the car.
+ME.30.193.1	ME_30	irrelevant	What triggers it could be when something that is not magnetic like the North and South thing it does not attract!
+ME.30.195.1	ME_30	irrelevant	Like a switch.
+ME.30.206.1	ME_30	1.0	It is filled with magnet and iron and steel.
+ME.30.207.1	ME_30	irrelevant	A box is on the side of the road and it sends a signal to the light.
+ME.30.214.1	ME_30	partially_correct_incomplete	It could send a trigger because the car is made of a type of metal and the magnet would attract.
+ME.30.215.1	ME_30	partially_correct_incomplete	The metal around a car.
+ME.30.217.1	ME_30	irrelevant	The car hood can trigger the light to change.
+ME.30.220.1	ME_30	irrelevant	When a car stops it will go to the next light.
+ME.30.224.1	ME_30	partially_correct_incomplete	It could attract both metal and then it could change the light.
+ME.30.225.1	ME_30	partially_correct_incomplete	The cars metal parts can attract the magnet which can trigger the light.
+ME.30.228.1	ME_30	partially_correct_incomplete	The metal on the car will try to touch together.
+ME.30.276.1	ME_30	irrelevant	The light can stick to the magnet because it is a magnet.
+ME.30.277.1	ME_30	irrelevant	By hitting the magnet and sending the force to the light.
+ME.30.293.1	ME_30	irrelevant	The magnet can send a signal to the light because the magnet is controlling the light.
+ME.30.313.1	ME_30	irrelevant	It could trigger them by if everyone is gone.
+ME.30.146.1	ME_30	irrelevant	When you stop Do not you see a white line. I think this has a magnet under it.
+ME.30.227.1	ME_30	partially_correct_incomplete	That is because a car is made of metal and the magnet attract to metal.
+ME.30.247.1	ME_30	irrelevant	There is a magnet that turns the color of the signal light that makes it turn red, yellow, green.
+ME.30.291.1	ME_30	irrelevant	The light turn red will repel, if the light green.

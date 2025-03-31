@@ -1,0 +1,43 @@
+AnswerId	PromptId	Score	AnswerText
+ME.65a.101.1	ME_65a	1.0	The other 2 will still light.
+ME.65a.105.1	ME_65a	1.0	They will stay lit.
+ME.65a.107.1	ME_65a	1.0	Only the middle bulb will go out.
+ME.65a.108.1	ME_65a	1.0	They will stay light.
+ME.65a.111.1	ME_65a	contradictory	Well first I think it is a series, so it will be a problem.
+ME.65a.113.1	ME_65a	1.0	The other ones will work even better.
+ME.65a.118.1	ME_65a	contradictory	All of them will go out.
+ME.65a.123.1	ME_65a	1.0	They will still be burning.
+ME.65a.141.1	ME_65a	1.0	They bulbs will not go out.
+ME.65a.142.1	ME_65a	1.0	They will stay lit.
+ME.65a.144.1	ME_65a	1.0	They will stay light.
+ME.65a.147.1	ME_65a	1.0	The 2 other bulbs will run if the middle one burns out.
+ME.65a.152.1	ME_65a	1.0	Nothing will happen.
+ME.65a.154.1	ME_65a	1.0	The left bulb will still be lighting because the diagram is a parallel.
+ME.65a.159.1	ME_65a	irrelevant	If it is a parallel circuit it will stay lit. If it is a series circuit it will not stay light.
+ME.65a.173.1	ME_65a	1.0	If one goes out then the 2 will stay on.
+ME.65a.174.1	ME_65a	1.0	The 2 bulbs will stay lit.
+ME.65a.176.1	ME_65a	1.0	The bulbs will stay lit.
+ME.65a.178.1	ME_65a	1.0	The rest stay on.
+ME.65a.180.1	ME_65a	contradictory	If the middle bulb burns out the other 2 will burn out also.
+ME.65a.183.1	ME_65a	1.0	The other bulbs will stay on.
+ME.65a.185.1	ME_65a	1.0	The other 2 bulbs will stay running the whole time the circuit is closed.
+ME.65a.189.1	ME_65a	1.0	The other 2 will stay lit.
+ME.65a.190.1	ME_65a	1.0	If one burns out the rest will stay on.
+ME.65a.191.1	ME_65a	1.0	The other bulbs will stay on because it is a parallel circuit.
+ME.65a.195.1	ME_65a	1.0	The top bulb will still light up.
+ME.65a.208.1	ME_65a	contradictory	The third will not burn out.
+ME.65a.212.1	ME_65a	1.0	The other bulbs will still light.
+ME.65a.215.1	ME_65a	1.0	Nothing will happen.
+ME.65a.225.1	ME_65a	contradictory	If the middle bulb burns out the 2 would burn out.
+ME.65a.227.1	ME_65a	1.0	The bulbs do not burn out.
+ME.65a.232.1	ME_65a	1.0	It will still work.
+ME.65a.256.1	ME_65a	1.0	The light will still run.
+ME.65a.277.1	ME_65a	1.0	The 2 bulbs will still be lit when it goes out.
+ME.65a.283.1	ME_65a	contradictory	They will all cut off.
+ME.65a.318.1	ME_65a	1.0	If the middle one burns out the other will still light.
+ME.65a.324.1	ME_65a	non_domain	No.
+ME.65a.327.1	ME_65a	1.0	I think they will not go out.
+ME.65a.149.1	ME_65a	1.0	Nothing will happen.
+ME.65a.207.1	ME_65a	contradictory	The others will not work.
+ME.65a.217.1	ME_65a	contradictory	The other bulbs will burn out too.
+ME.65a.292.1	ME_65a	irrelevant	The bulb will go off.

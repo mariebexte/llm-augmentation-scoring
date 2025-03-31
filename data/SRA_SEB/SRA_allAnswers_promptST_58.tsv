@@ -1,0 +1,39 @@
+AnswerId	PromptId	Score	AnswerText
+ST.58.393.1	ST_58	1.0	It has to have at least one seed.
+ST.58.397.1	ST_58	1.0	I know if it is a fruit because it would have seeds in it.
+ST.58.398.1	ST_58	1.0	To be a fruit it must have at least one seed in it.
+ST.58.423.1	ST_58	1.0	It has seeds.
+ST.58.427.1	ST_58	1.0	In java are seed.
+ST.58.429.1	ST_58	1.0	If has seed, in it the do have seeds, in it.
+ST.58.451.1	ST_58	1.0	If it has seeds it is a plant.
+ST.58.456.1	ST_58	1.0	I will look at the seed.
+ST.58.461.1	ST_58	1.0	It has a seed.
+ST.58.464.1	ST_58	1.0	It has to have an embryo, seed count, and cotyledon.
+ST.58.465.1	ST_58	1.0	You have to make sure it has seeds.
+ST.58.470.1	ST_58	1.0	If it has seeds.
+ST.58.474.1	ST_58	1.0	The rule for deciding if the part of a plant you are observing is a fruit is a fruit is not a fruit unless it has seeds.
+ST.58.486.1	ST_58	irrelevant	It case a stem I do not know.
+ST.58.492.1	ST_58	irrelevant	My rule is has to be sweet.
+ST.58.495.1	ST_58	1.0	If it has seeds that is the answer to the question I think.
+ST.58.496.1	ST_58	1.0	I decide by looking in it and seeing a seed.
+ST.58.497.1	ST_58	irrelevant	By the texture the smell of the fruit and the weight.
+ST.58.506.1	ST_58	partially_correct_incomplete	Does it have juice.
+ST.58.522.1	ST_58	1.0	Because it has seeds and if it has seeds in it is a fruit.
+ST.58.535.1	ST_58	1.0	My rule is to make sure it has seeds.
+ST.58.558.1	ST_58	1.0	My rule is that the fruit has to have a seed or seeds.
+ST.58.560.1	ST_58	1.0	The part of a plant you are observing is a fruit if it has seeds.
+ST.58.564.1	ST_58	1.0	If it has sees it is a fruit.
+ST.58.576.1	ST_58	1.0	If it has a seed or not.
+ST.58.591.1	ST_58	1.0	Does it have seeds is it covering seeds.
+ST.58.606.1	ST_58	irrelevant	The flowers.
+ST.58.607.1	ST_58	1.0	I know the part of the plant I am observing is a fruit because it has one or more seeds.
+ST.58.628.1	ST_58	1.0	If I look in it and it has seeds in it it is a fruit then if it do not have seeds then it is no a fruit.
+ST.58.630.1	ST_58	1.0	It nest to have a seed.
+ST.58.631.1	ST_58	1.0	Because inside the plant is a seed.
+ST.58.635.1	ST_58	1.0	It has to have a seed of it does not have no seed, it will not be a fruit.
+ST.58.638.1	ST_58	irrelevant	It is going to tell you if you have a baby plant first.
+ST.58.640.1	ST_58	1.0	That it has seeds or not.
+ST.58.417.1	ST_58	1.0	To see if it have seed.
+ST.58.533.1	ST_58	1.0	Because it has seeds.
+ST.58.595.1	ST_58	1.0	If it has seed inside it is a fruit.
+ST.58.637.1	ST_58	irrelevant	It is plant.

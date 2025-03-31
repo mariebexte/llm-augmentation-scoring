@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+LF.34b.103.1	LF_34b	irrelevant	The river dries as it gets to the mountains.
+LF.34b.108.1	LF_34b	partially_correct_incomplete	It flows that way because you cannot make a river flow uphill.
+LF.34b.109.1	LF_34b	irrelevant	Because it starts between a valley and mountains and goes the opposite direction.
+LF.34b.137.1	LF_34b	partially_correct_incomplete	Because it flows down from the mountains.
+LF.34b.177.1	LF_34b	contradictory	I think the water flows that way because it is going from happy valley to the river.
+LF.34b.212.1	LF_34b	1.0	Why is that the water flows down away from the mountain.
+LF.34b.213.1	LF_34b	irrelevant	Because it is big at beginning then slowly gets smaller and branches out.
+LF.34b.216.1	LF_34b	irrelevant	Because it goes happy valley then the river.
+LF.34b.223.1	LF_34b	contradictory	Because it does not go into the mountain.
+LF.34b.225.1	LF_34b	irrelevant	The river flows from biggest to smallest. That is why.
+LF.34b.253.1	LF_34b	partially_correct_incomplete	Because rivers sometimes end in valleys.
+LF.34b.262.1	LF_34b	irrelevant	The delta.
+LF.34b.357.1	LF_34b	contradictory	Because the water flow to the basin which is the rose mountains.
+LF.34b.667.1	LF_34b	1.0	It flows in that direction because the water is going high land to low land.
+LF.34b.668.1	LF_34b	irrelevant	Maybe because the mountains are that way, or there are cracks and the water goes through.
+LF.34b.670.1	LF_34b	1.0	Because the mountain is the highest peak and water flows downhill.
+LF.34b.673.1	LF_34b	1.0	I think that because the water flows down from the mountain first.
+LF.34b.684.1	LF_34b	irrelevant	Because there are little slots that take them that way.
+LF.34b.707.1	LF_34b	contradictory	I think it flows that way because rivers usually flow from valleys into mountains.
+LF.34b.734.1	LF_34b	irrelevant	I think the water flows in that direction because the river is still trying to find the easiest route.
+LF.34b.753.1	LF_34b	partially_correct_incomplete	Because the earth's gravitational pull.
+LF.34b.768.1	LF_34b	irrelevant	Because the river leads to an open delta.
+LF.34b.769.1	LF_34b	partially_correct_incomplete	It flows in that direction because the mountain usually carries the water down the side of the mountain.
+LF.34b.776.1	LF_34b	partially_correct_incomplete	I think the water flows in that direction because water cannot flow uphill.
+LF.34b.779.1	LF_34b	contradictory	Rivers usually flow through valley. It grow weaker at the mountain because it cannot go uphill.
+LF.34b.787.1	LF_34b	irrelevant	There are other little streams at that end that was formed by water.
+LF.34b.788.1	LF_34b	1.0	Rivers cannot flow up mountain and valleys cannot be on mountain so it is flowing towards happy valley.
+LF.34b.802.1	LF_34b	partially_correct_incomplete	I think that way, because the water will flow down the mountain, not up it.
+LF.34b.807.1	LF_34b	irrelevant	All the streams flow together forming one bigger river.
+LF.34b.810.1	LF_34b	irrelevant	I think this because the stream is getting wider as it goes on.
+LF.34b.811.1	LF_34b	partially_correct_incomplete	Because that is downhill.
+LF.34b.817.1	LF_34b	partially_correct_incomplete	I think it flows there because the river eroded the valley and the water would be flowing down the valley.
+LF.34b.819.1	LF_34b	partially_correct_incomplete	The river gets the water from the mountain and takes it to happy valley.
+LF.34b.827.1	LF_34b	irrelevant	I think the water flows in the direction because that is where the crack is.
+LF.34b.840.1	LF_34b	irrelevant	I think flows in that direction because it starts small and it gets bigger.
+LF.34b.844.1	LF_34b	partially_correct_incomplete	I think the water flows in that direction because water cannot flow up a mountain.
+LF.34b.254.1	LF_34b	irrelevant	I think the water flows that direction because happy valley is where it empties into.
+LF.34b.731.1	LF_34b	irrelevant	I think the river flows in that direction because the pathway, the river flows toward happy valley.
+LF.34b.823.1	LF_34b	1.0	Because somewhere in that mountain there is a water source and the water flows down the mountain.
+LF.34b.825.1	LF_34b	1.0	I believe it flows in that direction because the earth water comes out of cracks in mountain a flow down the mountain and into river.

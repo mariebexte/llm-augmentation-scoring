@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+MS.50a.107.1	MS_50a	irrelevant	The temperature.
+MS.50a.112.1	MS_50a	1.0	Celsius.
+MS.50a.119.1	MS_50a	irrelevant	A thermometer.
+MS.50a.136.1	MS_50a	1.0	Celsius.
+MS.50a.141.1	MS_50a	1.0	Celsius.
+MS.50a.146.1	MS_50a	1.0	He used Celsius.
+MS.50a.171.1	MS_50a	1.0	He was using degrees Celsius.
+MS.50a.172.1	MS_50a	1.0	Celsius and the metric system.
+MS.50a.190.1	MS_50a	contradictory	28 F.
+MS.50a.286.1	MS_50a	irrelevant	Thermometer.
+MS.50a.293.1	MS_50a	irrelevant	The degrees.
+MS.50a.311.1	MS_50a	1.0	Celsius.
+MS.50a.319.1	MS_50a	1.0	28 Celsius.
+MS.50a.323.1	MS_50a	irrelevant	Thermometer.
+MS.50a.347.1	MS_50a	1.0	A metric system.
+MS.50a.354.1	MS_50a	1.0	He is using degrees Celsius.
+MS.50a.360.1	MS_50a	irrelevant	A thermometer.
+MS.50a.381.1	MS_50a	1.0	He is using Celsius.
+MS.50a.387.1	MS_50a	1.0	Celsius.
+MS.50a.393.1	MS_50a	1.0	Celsius.
+MS.50a.400.1	MS_50a	1.0	Degree Celsius.
+MS.50a.417.1	MS_50a	irrelevant	Nice and warm, about 28 degrees.
+MS.50a.423.1	MS_50a	irrelevant	He is using is feeling.
+MS.50a.433.1	MS_50a	irrelevant	He was using going outside estimating.
+MS.50a.454.1	MS_50a	1.0	Uncle Jen is using Celsius.
+MS.50a.461.1	MS_50a	irrelevant	Is was 60 milliliters.
+MS.50a.464.1	MS_50a	irrelevant	Thermometer.
+MS.50a.486.1	MS_50a	1.0	Celsius.
+MS.50a.501.1	MS_50a	1.0	Degree Celsius.
+MS.50a.527.1	MS_50a	1.0	Celsius.
+MS.50a.566.1	MS_50a	irrelevant	A thermometer.
+MS.50a.574.1	MS_50a	1.0	Celsius.
+MS.50a.599.1	MS_50a	irrelevant	Thermometer.
+MS.50a.604.1	MS_50a	1.0	Celsius.
+MS.50a.609.1	MS_50a	irrelevant	Thermometer.
+MS.50a.610.1	MS_50a	irrelevant	Thermometer.
+MS.50a.101.1	MS_50a	irrelevant	A mass.
+MS.50a.277.1	MS_50a	1.0	He is using a Celsius.
+MS.50a.496.1	MS_50a	irrelevant	Thermometer.
+MS.50a.499.1	MS_50a	1.0	Celsius.

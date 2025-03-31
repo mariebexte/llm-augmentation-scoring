@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.78b.101.1	ME_78b	partially_correct_incomplete	The motor will still run.
+ME.78b.105.1	ME_78b	contradictory	The motor will burn out.
+ME.78b.107.1	ME_78b	contradictory	The motor will go out too.
+ME.78b.119.1	ME_78b	partially_correct_incomplete	The motor will still run.
+ME.78b.120.1	ME_78b	partially_correct_incomplete	It would stay on.
+ME.78b.121.1	ME_78b	partially_correct_incomplete	It would still work.
+ME.78b.123.1	ME_78b	1.0	It will run the same it is a parallel.
+ME.78b.142.1	ME_78b	1.0	The motor will keep going until the D-Cell runs out.
+ME.78b.144.1	ME_78b	contradictory	The motor will stop running.
+ME.78b.146.1	ME_78b	1.0	The motor will still run because it is a parallel circuit.
+ME.78b.148.1	ME_78b	partially_correct_incomplete	It will still run.
+ME.78b.149.1	ME_78b	partially_correct_incomplete	Nothing will happen. It will still run.
+ME.78b.152.1	ME_78b	contradictory	They both go out.
+ME.78b.154.1	ME_78b	contradictory	The motor will quit because it is in a series if one thing runs out the rest that are hooked up to it will not work.
+ME.78b.155.1	ME_78b	partially_correct_incomplete	The motor will stay on because the wire is coming out of the positive end and the back.
+ME.78b.173.1	ME_78b	contradictory	If the bulb shuts off the motor will turn off because it is a series circuit.
+ME.78b.174.1	ME_78b	partially_correct_incomplete	The motor will stay on.
+ME.78b.176.1	ME_78b	contradictory	The motor will not work.
+ME.78b.178.1	ME_78b	contradictory	The motor will stop.
+ME.78b.180.1	ME_78b	partially_correct_incomplete	If the light bulb burns out the motor will keep on going.
+ME.78b.185.1	ME_78b	partially_correct_incomplete	The motor will keep going.
+ME.78b.191.1	ME_78b	partially_correct_incomplete	The motor will still keep running.
+ME.78b.192.1	ME_78b	partially_correct_incomplete	The motor will still be running.
+ME.78b.195.1	ME_78b	contradictory	There will be no electricity.
+ME.78b.206.1	ME_78b	contradictory	The motor will go out.
+ME.78b.207.1	ME_78b	partially_correct_incomplete	The motor will run.
+ME.78b.208.1	ME_78b	contradictory	If the light bulb burns out, the motor will not work.
+ME.78b.212.1	ME_78b	contradictory	The motor will stop working.
+ME.78b.215.1	ME_78b	contradictory	It would not work.
+ME.78b.217.1	ME_78b	partially_correct_incomplete	The motor will still work.
+ME.78b.227.1	ME_78b	partially_correct_incomplete	Nothing will happen.
+ME.78b.245.1	ME_78b	contradictory	The motor will stop.
+ME.78b.250.1	ME_78b	partially_correct_incomplete	The motor will run.
+ME.78b.311.1	ME_78b	partially_correct_incomplete	The motor is going to keep going when the light bulb goes out.
+ME.78b.324.1	ME_78b	partially_correct_incomplete	It will still run.
+ME.78b.327.1	ME_78b	partially_correct_incomplete	It will still run because it is not sharing a wire like a series does.
+ME.78b.115.1	ME_78b	contradictory	The motor will burn out also.
+ME.78b.140.1	ME_78b	contradictory	The motor will also burn out with the light bulb because it is in parallel circuit.
+ME.78b.159.1	ME_78b	partially_correct_incomplete	The motor will keep running.
+ME.78b.254.1	ME_78b	contradictory	The motor will stop working because it is in a series.

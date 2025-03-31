@@ -1,0 +1,40 @@
+AnswerId	PromptId	Score	AnswerText
+ME.17c.101.1	ME_17c	irrelevant	The light bulb will work.
+ME.17c.102.1	ME_17c	1.0	Only the motor will run.
+ME.17c.107.1	ME_17c	1.0	The motor will start running.
+ME.17c.115.1	ME_17c	1.0	The motor will run.
+ME.17c.118.1	ME_17c	contradictory	Nothing.
+ME.17c.119.1	ME_17c	1.0	The motor will run.
+ME.17c.120.1	ME_17c	1.0	The motor will turn on if she moves it to the right.
+ME.17c.140.1	ME_17c	irrelevant	The light bulb will light.
+ME.17c.141.1	ME_17c	1.0	The motor will run.
+ME.17c.142.1	ME_17c	1.0	The motor will start.
+ME.17c.143.1	ME_17c	1.0	The motor will run.
+ME.17c.144.1	ME_17c	1.0	The electricity is moving through the circuit.
+ME.17c.146.1	ME_17c	1.0	It will work.
+ME.17c.149.1	ME_17c	contradictory	It will turn off.
+ME.17c.159.1	ME_17c	irrelevant	The bulb will light.
+ME.17c.176.1	ME_17c	1.0	The motor will work.
+ME.17c.178.1	ME_17c	contradictory	It will cut off the light and motor.
+ME.17c.183.1	ME_17c	1.0	It will turn on.
+ME.17c.190.1	ME_17c	1.0	It will turn on.
+ME.17c.195.1	ME_17c	1.0	The motor will run.
+ME.17c.206.1	ME_17c	1.0	The motor will turn on.
+ME.17c.207.1	ME_17c	1.0	The motor will work.
+ME.17c.215.1	ME_17c	1.0	The motor and light goes on.
+ME.17c.216.1	ME_17c	1.0	The motor will only run.
+ME.17c.220.1	ME_17c	irrelevant	The light will turn off.
+ME.17c.224.1	ME_17c	irrelevant	It will work.
+ME.17c.247.1	ME_17c	1.0	The motor will go on.
+ME.17c.251.1	ME_17c	1.0	The motor will run.
+ME.17c.276.1	ME_17c	irrelevant	It will light up because everything will work if it is all hooked up.
+ME.17c.277.1	ME_17c	1.0	The motor will run.
+ME.17c.278.1	ME_17c	contradictory	When the switch is moved nothing will work.
+ME.17c.313.1	ME_17c	contradictory	It will stay the same it will be a parallel circuit.
+ME.17c.323.1	ME_17c	1.0	If you turn the switch to the right, the motor will run.
+ME.17c.324.1	ME_17c	1.0	It will come on.
+ME.17c.327.1	ME_17c	1.0	It will go on.
+ME.17c.108.1	ME_17c	1.0	It will work.
+ME.17c.121.1	ME_17c	1.0	The motor will turn on.
+ME.17c.212.1	ME_17c	1.0	The motor will run.
+ME.17c.225.1	ME_17c	irrelevant	The bulb will still light.

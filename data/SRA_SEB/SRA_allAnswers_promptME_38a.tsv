@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.38a.101.1	ME_38a	irrelevant	It will not get light because the negative is getting to the motor.
+ME.38a.102.1	ME_38a	1.0	It will not light because one wire has to go in one side and one wire has to go in the other.
+ME.38a.105.1	ME_38a	1.0	There is not 2 wires for each little clip. There needs to be one coming from one clip and another coming from the other clip.
+ME.38a.107.1	ME_38a	1.0	The bulb will not light because one of the wires have to touch the other clip.
+ME.38a.111.1	ME_38a	irrelevant	Because the electricity is going to the motor.
+ME.38a.119.1	ME_38a	irrelevant	The bulb will not light because there is not enough electricity.
+ME.38a.120.1	ME_38a	1.0	It will not because there has to be a wire in each wire holder.
+ME.38a.121.1	ME_38a	partially_correct_incomplete	The cord from the battery is not on both sides.
+ME.38a.140.1	ME_38a	irrelevant	Because the bulb will not have enough energy because of the light bulb.
+ME.38a.143.1	ME_38a	irrelevant	Because the positive wire is taking the energy right away.
+ME.38a.144.1	ME_38a	irrelevant	Because, the electricity goes through the wrong way the second time.
+ME.38a.146.1	ME_38a	irrelevant	There are 2 wires that should not be there the motor wires.
+ME.38a.147.1	ME_38a	irrelevant	It going in a coil.
+ME.38a.149.1	ME_38a	irrelevant	The wires are not even.
+ME.38a.154.1	ME_38a	partially_correct_incomplete	It is not connected properly because the wires are not connected properly on the motor.
+ME.38a.155.1	ME_38a	partially_correct_incomplete	The bulb will no because the other wire is not connected.
+ME.38a.159.1	ME_38a	irrelevant	There is not enough energy.
+ME.38a.173.1	ME_38a	partially_correct_incomplete	The battery does not have enough power or the power is not getting to the bulb.
+ME.38a.178.1	ME_38a	irrelevant	The motor is not running.
+ME.38a.179.1	ME_38a	partially_correct_incomplete	It will not light because when the electricity cannot flow through the wires.
+ME.38a.180.1	ME_38a	partially_correct_incomplete	The bulb will not light up because they are all not connected and this does not make a circuit.
+ME.38a.181.1	ME_38a	irrelevant	Because it is not in a circle.
+ME.38a.195.1	ME_38a	irrelevant	It is in both the same circuit.
+ME.38a.206.1	ME_38a	1.0	The light bulb needs both plus and minus to be on different parts of the holder.
+ME.38a.208.1	ME_38a	partially_correct_incomplete	It is not connected.
+ME.38a.215.1	ME_38a	irrelevant	More power goes to the motor.
+ME.38a.225.1	ME_38a	partially_correct_incomplete	The wires are not connecting to the bulb.
+ME.38a.226.1	ME_38a	1.0	The bulb will not light because the positive and negative wires are hooked on the same hook.
+ME.38a.253.1	ME_38a	irrelevant	It does not work because the wire are not propel on the spring thing.
+ME.38a.254.1	ME_38a	irrelevant	Yes even though it is not a complete circuit.
+ME.38a.256.1	ME_38a	partially_correct_incomplete	No because both wires are on both place.
+ME.38a.314.1	ME_38a	partially_correct_incomplete	Some of the wires are disconnect.
+ME.38a.323.1	ME_38a	1.0	It will not light because the bulbs wires are not connected to both sockets.
+ME.38a.324.1	ME_38a	irrelevant	Because the motor got all the power.
+ME.38a.327.1	ME_38a	partially_correct_incomplete	Because one side is hooked to the motor.
+ME.38a.328.1	ME_38a	partially_correct_incomplete	The bulb will not work because the negative and the positive cannot go in the same way.
+ME.38a.118.1	ME_38a	1.0	Because the hook needs the wire to move so one is on each side.
+ME.38a.123.1	ME_38a	partially_correct_incomplete	The wire on the negative side of the light needs to be hooked to the motor's clip it should look like this?
+ME.38a.152.1	ME_38a	contradictory	It is not a complete circuit.
+ME.38a.192.1	ME_38a	irrelevant	The bulb will not light because there is a closed circuit.

@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ST.31b.384.1	ST_31b	1.0	To make sound.
+ST.31b.391.1	ST_31b	1.0	To make noise.
+ST.31b.394.1	ST_31b	irrelevant	Another function is to protect.
+ST.31b.397.1	ST_31b	1.0	To make sounds.
+ST.31b.399.1	ST_31b	irrelevant	To protect.
+ST.31b.400.1	ST_31b	irrelevant	It is to work and the abdomen?
+ST.31b.419.1	ST_31b	irrelevant	Their soft body.
+ST.31b.421.1	ST_31b	irrelevant	The jaw.
+ST.31b.425.1	ST_31b	irrelevant	To fly.
+ST.31b.427.1	ST_31b	irrelevant	Horn.
+ST.31b.454.1	ST_31b	irrelevant	Protection.
+ST.31b.458.1	ST_31b	1.0	To help make the strangulating sound.
+ST.31b.459.1	ST_31b	irrelevant	Protecting the thorax.
+ST.31b.460.1	ST_31b	irrelevant	To help strangulate.
+ST.31b.461.1	ST_31b	1.0	Making a sound.
+ST.31b.463.1	ST_31b	1.0	Another function is to strangulate or make noises.
+ST.31b.470.1	ST_31b	irrelevant	Strangulating.
+ST.31b.490.1	ST_31b	irrelevant	The hard black wing set.
+ST.31b.491.1	ST_31b	irrelevant	Abdomen.
+ST.31b.493.1	ST_31b	partially_correct_incomplete	Another function of the elytra is to fly.
+ST.31b.527.1	ST_31b	1.0	To make noise with wings.
+ST.31b.530.1	ST_31b	irrelevant	Another function for elytra is abdomen.
+ST.31b.532.1	ST_31b	irrelevant	Thorax abdomen.
+ST.31b.534.1	ST_31b	irrelevant	Their wings.
+ST.31b.535.1	ST_31b	irrelevant	Hard skin.
+ST.31b.536.1	ST_31b	1.0	The elytra flies. It makes a sound.
+ST.31b.560.1	ST_31b	irrelevant	When the Bess beetles are crawling in the wood they need something hard to protect itself.
+ST.31b.568.1	ST_31b	irrelevant	Another function is the horn.
+ST.31b.570.1	ST_31b	partially_correct_incomplete	It scares other animals away.
+ST.31b.576.1	ST_31b	irrelevant	To fly.
+ST.31b.593.1	ST_31b	irrelevant	For protecting inner parts while going through small areas.
+ST.31b.605.1	ST_31b	irrelevant	To protect itself.
+ST.31b.606.1	ST_31b	irrelevant	Another function is to protect the abdomen.
+ST.31b.607.1	ST_31b	irrelevant	The elytra also protects the Bess beetle if it falls on its back.
+ST.31b.632.1	ST_31b	irrelevant	It covers the wings.
+ST.31b.635.1	ST_31b	1.0	The elytra makes sounds. Example danger, Example did you have a good day.
+ST.31b.474.1	ST_31b	irrelevant	Another function of the elytra is for strangulating.
+ST.31b.487.1	ST_31b	irrelevant	Fly around.
+ST.31b.492.1	ST_31b	irrelevant	The thorax.
+ST.31b.561.1	ST_31b	1.0	The beetle can rub its elytra making noises in order to communicate.

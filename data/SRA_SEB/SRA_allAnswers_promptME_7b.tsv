@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.7b.102.1	ME_7b	1.0	The motor will run that is how you will know.
+ME.7b.105.1	ME_7b	1.0	He will know because the motor will run.
+ME.7b.107.1	ME_7b	1.0	He will know it is a conductor if the motor spins.
+ME.7b.108.1	ME_7b	irrelevant	It will conduct electricity.
+ME.7b.120.1	ME_7b	1.0	He will know because the motor will come on if it is a conductor.
+ME.7b.140.1	ME_7b	1.0	Only if the motor works then is a conductor.
+ME.7b.143.1	ME_7b	1.0	If the motor starts running.
+ME.7b.149.1	ME_7b	1.0	If it runs.
+ME.7b.153.1	ME_7b	1.0	If the motor comes on.
+ME.7b.154.1	ME_7b	1.0	He will know that it will allow the flow of energy.
+ME.7b.155.1	ME_7b	1.0	Lee would know if is a conductor if it runs.
+ME.7b.173.1	ME_7b	irrelevant	He will know because a conductor is not glowing in a circuit.
+ME.7b.176.1	ME_7b	1.0	You will know it is a conductor because the motor will run.
+ME.7b.179.1	ME_7b	1.0	If the objects a conductor the motor should run and electricity will be able to flow.
+ME.7b.183.1	ME_7b	1.0	If the motor runs.
+ME.7b.190.1	ME_7b	1.0	It will run or turn on if it is a conductor.
+ME.7b.192.1	ME_7b	irrelevant	He will know because the energy will flow in a circle and there will be a open circuit.
+ME.7b.207.1	ME_7b	1.0	It will run.
+ME.7b.208.1	ME_7b	1.0	The object will go.
+ME.7b.215.1	ME_7b	irrelevant	If the light is on or off.
+ME.7b.216.1	ME_7b	irrelevant	By doing what I wrote for the first part.
+ME.7b.224.1	ME_7b	1.0	You will know because it will start to work.
+ME.7b.225.1	ME_7b	1.0	He will know the object is a conductor if the energy flows through.
+ME.7b.227.1	ME_7b	1.0	He will know if the object is a conductor because the motor will run.
+ME.7b.228.1	ME_7b	irrelevant	If the object is a conductor it will do what it is suppose to do.
+ME.7b.247.1	ME_7b	irrelevant	To try it out and see if it is a conductor.
+ME.7b.250.1	ME_7b	1.0	You will know if the motor runs.
+ME.7b.253.1	ME_7b	1.0	You will know if the motor turns on that it is a good conductor.
+ME.7b.278.1	ME_7b	1.0	He will know if the motor runs.
+ME.7b.280.1	ME_7b	1.0	If it runs.
+ME.7b.292.1	ME_7b	irrelevant	He can put thing on a D-Cell.
+ME.7b.313.1	ME_7b	partially_correct_incomplete	The light bulb will or the motor will make a sound.
+ME.7b.318.1	ME_7b	1.0	The motor will work and that annoying buzz will come back.
+ME.7b.324.1	ME_7b	non_domain	Check if is right or not.
+ME.7b.325.1	ME_7b	1.0	He will know that if the motor runs.
+ME.7b.383.1	ME_7b	1.0	The motor will run.
+ME.7b.101.1	ME_7b	1.0	He will know if the motor will run if it is a conductor it will not if it is a isolator.
+ME.7b.147.1	ME_7b	1.0	The conductor will make it go.
+ME.7b.180.1	ME_7b	1.0	He will know that if it works.
+ME.7b.191.1	ME_7b	1.0	He could know if it works, motor.

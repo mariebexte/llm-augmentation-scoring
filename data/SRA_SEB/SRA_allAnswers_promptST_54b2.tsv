@@ -1,0 +1,39 @@
+AnswerId	PromptId	Score	AnswerText
+ST.54b2.383.1	ST_54b2	partially_correct_incomplete	Feeds baby plant, embryo.
+ST.54b2.385.1	ST_54b2	partially_correct_incomplete	The cotyledon stores the food.
+ST.54b2.386.1	ST_54b2	1.0	Feeds the embryo.
+ST.54b2.387.1	ST_54b2	irrelevant	The cotyledon is the baby seed.
+ST.54b2.389.1	ST_54b2	1.0	It feeds the baby plant.
+ST.54b2.391.1	ST_54b2	irrelevant	The cotyledon is the inside of the seed.
+ST.54b2.420.1	ST_54b2	irrelevant	Out of it.
+ST.54b2.424.1	ST_54b2	partially_correct_incomplete	To store all the food.
+ST.54b2.427.1	ST_54b2	irrelevant	Then is the cannot of the seed.
+ST.54b2.454.1	ST_54b2	partially_correct_incomplete	Place that stores food for it.
+ST.54b2.455.1	ST_54b2	partially_correct_incomplete	It stores the food.
+ST.54b2.460.1	ST_54b2	partially_correct_incomplete	Part that stores food.
+ST.54b2.465.1	ST_54b2	irrelevant	It is the leaf, stem, and roots.
+ST.54b2.469.1	ST_54b2	partially_correct_incomplete	A storage.
+ST.54b2.494.1	ST_54b2	irrelevant	Where seeds are.
+ST.54b2.496.1	ST_54b2	partially_correct_incomplete	The cotyledon is where seeds are store.
+ST.54b2.528.1	ST_54b2	irrelevant	Grow.
+ST.54b2.530.1	ST_54b2	partially_correct_incomplete	Food storage.
+ST.54b2.532.1	ST_54b2	irrelevant	Cotyledon seed coat, embryo.
+ST.54b2.533.1	ST_54b2	partially_correct_incomplete	Feed it.
+ST.54b2.536.1	ST_54b2	contradictory	Gives you the fiber you need.
+ST.54b2.540.1	ST_54b2	partially_correct_incomplete	Food storage.
+ST.54b2.558.1	ST_54b2	irrelevant	A cotyledon is the part over the water.
+ST.54b2.565.1	ST_54b2	partially_correct_incomplete	It stores the food.
+ST.54b2.591.1	ST_54b2	partially_correct_incomplete	Stores supply.
+ST.54b2.598.1	ST_54b2	irrelevant	The inner layer of the seed.
+ST.54b2.602.1	ST_54b2	partially_correct_incomplete	The cotyledon is its food holder.
+ST.54b2.604.1	ST_54b2	partially_correct_incomplete	The food supply.
+ST.54b2.606.1	ST_54b2	partially_correct_incomplete	Store food.
+ST.54b2.610.1	ST_54b2	partially_correct_incomplete	Food supply.
+ST.54b2.627.1	ST_54b2	partially_correct_incomplete	It stores food.
+ST.54b2.629.1	ST_54b2	1.0	The cotyledon is the food for the baby plant.
+ST.54b2.630.1	ST_54b2	irrelevant	The baby inside the seed.
+ST.54b2.637.1	ST_54b2	irrelevant	Stem.
+ST.54b2.398.1	ST_54b2	irrelevant	Is the leaf and stem inside the seed.
+ST.54b2.399.1	ST_54b2	irrelevant	Baby plant.
+ST.54b2.592.1	ST_54b2	1.0	A cotyledon is a food supplies.
+ST.54b2.605.1	ST_54b2	1.0	Food supply.

@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.27b.102.1	ME_27b	1.0	If it is iron it will stick if it is aluminum it will not stick.
+ME.27b.105.1	ME_27b	1.0	It will be made of iron if it sticks to a magnet.
+ME.27b.107.1	ME_27b	1.0	The magnet will stick to iron not to aluminum.
+ME.27b.108.1	ME_27b	1.0	If it is iron it will stick.
+ME.27b.121.1	ME_27b	partially_correct_incomplete	I will stick or not stick.
+ME.27b.123.1	ME_27b	1.0	It will stick to iron.
+ME.27b.143.1	ME_27b	1.0	By testing it with a magnet and it will stick if it is iron.
+ME.27b.144.1	ME_27b	1.0	If the key sticks it is made of iron if it does not it is made of aluminum.
+ME.27b.146.1	ME_27b	1.0	If it is iron the key will stick if it is aluminum it would not stick.
+ME.27b.147.1	ME_27b	contradictory	Aluminum will stick to a magnet.
+ME.27b.152.1	ME_27b	1.0	If it were iron it would stick.
+ME.27b.154.1	ME_27b	1.0	You could get something with magnitite in it and see if it sticks if it sticks you know it is iron if it does not stick it is aluminum.
+ME.27b.159.1	ME_27b	irrelevant	Test it on a magnet.
+ME.27b.176.1	ME_27b	partially_correct_incomplete	The magnet will stick.
+ME.27b.179.1	ME_27b	1.0	The key will stick if it is iron but if it is aluminum it will not.
+ME.27b.180.1	ME_27b	partially_correct_incomplete	You will put a magnet on it and see if it sticks.
+ME.27b.181.1	ME_27b	1.0	If it is iron it will stick if it is aluminum it will not stick.
+ME.27b.185.1	ME_27b	partially_correct_incomplete	If the key sticks.
+ME.27b.208.1	ME_27b	partially_correct_incomplete	The magnet will stick.
+ME.27b.215.1	ME_27b	partially_correct_incomplete	If the magnet attracts or not.
+ME.27b.226.1	ME_27b	partially_correct_incomplete	You will know because the magnet will stick or not.
+ME.27b.228.1	ME_27b	1.0	If the key is iron it will attract if it is not it will repel.
+ME.27b.247.1	ME_27b	partially_correct_incomplete	By sticking the key to a magnet and try it out.
+ME.27b.250.1	ME_27b	irrelevant	If it attracts or drops when you let it go.
+ME.27b.251.1	ME_27b	1.0	If the key attracts is iron. If it repels is aluminum.
+ME.27b.255.1	ME_27b	non_domain	You would find the answer.
+ME.27b.256.1	ME_27b	1.0	It will stick to iron and not aluminum.
+ME.27b.276.1	ME_27b	irrelevant	You can try it out altogether.
+ME.27b.292.1	ME_27b	irrelevant	I will put it on a nail.
+ME.27b.293.1	ME_27b	partially_correct_incomplete	You will know because it will stick to a magnet.
+ME.27b.311.1	ME_27b	1.0	Because if it sticked it was iron if it did not it is aluminum.
+ME.27b.313.1	ME_27b	1.0	If it sticks then it is a magnet if it does not then it is not.
+ME.27b.314.1	ME_27b	partially_correct_incomplete	You can get a key and a iron nail and aluminum foil and see if it sticks.
+ME.27b.318.1	ME_27b	1.0	If it repels aluminum if it sticks iron, attract.
+ME.27b.323.1	ME_27b	partially_correct_incomplete	I will know when it sticks or it repels.
+ME.27b.324.1	ME_27b	partially_correct_incomplete	It will fall off the magnet.
+ME.27b.101.1	ME_27b	1.0	You will know because if it sticks it is iron if it does not it is aluminum.
+ME.27b.115.1	ME_27b	1.0	If it attracts, it is iron. If it does not, it is aluminum.
+ME.27b.141.1	ME_27b	1.0	If it is iron it will stick to a magnet if it is aluminum it will not.
+ME.27b.148.1	ME_27b	1.0	Iron will stick. Aluminum will not stick.

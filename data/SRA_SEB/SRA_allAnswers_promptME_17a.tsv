@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.17a.101.1	ME_17a	contradictory	The light bulb will not work.
+ME.17a.102.1	ME_17a	1.0	Only the light will light.
+ME.17a.105.1	ME_17a	contradictory	Nothing will happen.
+ME.17a.107.1	ME_17a	1.0	The light bulb will light up.
+ME.17a.108.1	ME_17a	contradictory	It is going to stop.
+ME.17a.111.1	ME_17a	1.0	The light will come on.
+ME.17a.115.1	ME_17a	1.0	The bulb will light.
+ME.17a.118.1	ME_17a	contradictory	Nothing.
+ME.17a.119.1	ME_17a	1.0	The bulb will come on.
+ME.17a.140.1	ME_17a	irrelevant	The motor will run.
+ME.17a.141.1	ME_17a	1.0	The light bulb will run.
+ME.17a.142.1	ME_17a	1.0	The light bulb will lit.
+ME.17a.146.1	ME_17a	contradictory	It will not work.
+ME.17a.147.1	ME_17a	irrelevant	It will turn on.
+ME.17a.159.1	ME_17a	contradictory	The motor will run.
+ME.17a.173.1	ME_17a	1.0	The light bulb will cut on.
+ME.17a.178.1	ME_17a	1.0	I will start the motor and light.
+ME.17a.179.1	ME_17a	1.0	When she moves the switch to the left the light bulb will turn on.
+ME.17a.185.1	ME_17a	irrelevant	The energy will keep flowing.
+ME.17a.192.1	ME_17a	1.0	If she moves the switch to the left everything will turn on.
+ME.17a.195.1	ME_17a	1.0	The light will run.
+ME.17a.206.1	ME_17a	1.0	The light bulb will turn on.
+ME.17a.207.1	ME_17a	1.0	The light run.
+ME.17a.212.1	ME_17a	1.0	The bulb will light.
+ME.17a.214.1	ME_17a	1.0	The motor and light will run.
+ME.17a.215.1	ME_17a	1.0	The light and motor goes on.
+ME.17a.216.1	ME_17a	1.0	Only the light bulb will light.
+ME.17a.226.1	ME_17a	1.0	The light will turn on.
+ME.17a.228.1	ME_17a	contradictory	If she moves the switch left the motor will not start and the light will not light up.
+ME.17a.251.1	ME_17a	1.0	The light bulb would light up.
+ME.17a.254.1	ME_17a	1.0	The light bulb will turn on.
+ME.17a.278.1	ME_17a	1.0	The light bulb will work and the motor will work.
+ME.17a.313.1	ME_17a	irrelevant	It would be a series.
+ME.17a.314.1	ME_17a	1.0	Both of the receivers will light.
+ME.17a.327.1	ME_17a	contradictory	It will go off.
+ME.17a.328.1	ME_17a	irrelevant	When the switch moves to the left, it will work.
+ME.17a.155.1	ME_17a	1.0	The light bulb will turn on.
+ME.17a.311.1	ME_17a	1.0	The light bulb will light up.
+ME.17a.323.1	ME_17a	1.0	When she moves the switch to the left the bulb will light.
+ME.17a.324.1	ME_17a	contradictory	It might lose power.

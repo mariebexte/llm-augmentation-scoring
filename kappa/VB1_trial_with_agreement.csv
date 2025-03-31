@@ -1,0 +1,41 @@
+PromptID,AnswerText,Score,Annotation (KS),Annotation (TZ),Annotation (MB),Agree_MB_TZ,Agree_MB_KS,Agree_TZ_KS,Num_unique,Gold_annotation
+How do you define a controlled experiment?,A controlled experiment is an experiment where you only change one variable.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,An experiment where you only change one variable.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is an experiment where only one variable is changed.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,The longer the string the shorter the swings.,irrelevant,irrelevant,irrelevant,non_domain,False,False,True,2,irrelevant
+How do you define a controlled experiment?,A experiment in which one variable is changed.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,An experiment that only changes one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is when you only change one variable at a time instead of 2 or more.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,That you only put one penny at a time.,irrelevant,irrelevant,irrelevant,non_domain,False,False,True,2,irrelevant
+How do you define a controlled experiment?,A controlled experiment is a experiment that you can control by weight and the length of string.,contradictory,irrelevant,contradictory,irrelevant,False,True,False,2,irrelevant
+How do you define a controlled experiment?,A controlled experiment is when you change one variable at a time to affect the outcome.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,When you only change one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is when you only change one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is like a release position because a release position is a controlled experiment.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,If you do not change one variable at a time its not a controlled experiment.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,Changing one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,You define a controlled experiment when you only change one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is when you test the variables one at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,Only one variable is changed at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,You can control the experiment.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,To do one at a time.,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,partially_correct_incomplete,True,True,True,1,partially_correct_incomplete
+How do you define a controlled experiment?,A controlled experiment is when you control it and it is an experiment of yours.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,"Where you control the variables, length, mass, release position. But you cannot control the amount of time it swings.",irrelevant,partially_correct_incomplete,irrelevant,partially_correct_incomplete,False,True,False,2,partially_correct_incomplete
+How do you define a controlled experiment?,The variables can be changed one at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,When you only change one thing and you know the thing is causing it to do something.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,By having everything controlled.,irrelevant,partially_correct_incomplete,contradictory,irrelevant,False,False,False,3,irrelevant
+How do you define a controlled experiment?,By not being good.,non_domain,non_domain,non_domain,non_domain,True,True,True,1,non_domain
+How do you define a controlled experiment?,If it needs to be controlled to make a decision.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,A variable is a controlled experiment.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,Something that you do and you control.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,You control the mass of the tire swing.,irrelevant,irrelevant,irrelevant,partially_correct_incomplete,False,False,True,2,irrelevant
+How do you define a controlled experiment?,"By controlling the swinger, and by changing the different thing.",partially_correct_incomplete,irrelevant,irrelevant,contradictory,False,False,True,2,irrelevant
+How do you define a controlled experiment?,You controlled the experiment by yourself.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,You can only change one variables.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,By putting everything where it goes.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,A controlled experiment is when you change one variable that is it no more than one variable.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is when you only change one variable at a time.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,A controlled experiment is where you change a variable.,1.0,1.0,1.0,1.0,True,True,True,1,1.0
+How do you define a controlled experiment?,You just work with the experiment and get it over with.,irrelevant,irrelevant,irrelevant,irrelevant,True,True,True,1,irrelevant
+How do you define a controlled experiment?,To find the answer.,irrelevant,non_domain,irrelevant,non_domain,False,True,False,2,non_domain
+How do you define a controlled experiment?,Only change one variable.,1.0,1.0,1.0,1.0,True,True,True,1,1.0

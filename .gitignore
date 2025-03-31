@@ -2,4 +2,10 @@
 .checkstyle
 settings.json
 **/__pycache__
-data/
+data/manually_labeled_llm_answers
+curves*/
+Kristina/
+llm_preds*/
+results*/
+manual_annotation_study/*
+kappa/*.numbers

@@ -1,0 +1,40 @@
+AnswerId	PromptId	Score	AnswerText
+ST.54b3.382.1	ST_54b3	1.0	The baby plant.
+ST.54b3.386.1	ST_54b3	1.0	Grows into plant.
+ST.54b3.388.1	ST_54b3	irrelevant	Germinates.
+ST.54b3.391.1	ST_54b3	partially_correct_incomplete	The embryo is the root or stem.
+ST.54b3.393.1	ST_54b3	1.0	Baby plant.
+ST.54b3.397.1	ST_54b3	1.0	Baby plant.
+ST.54b3.401.1	ST_54b3	1.0	It is the baby plant.
+ST.54b3.402.1	ST_54b3	1.0	Baby plant.
+ST.54b3.426.1	ST_54b3	irrelevant	The seed.
+ST.54b3.428.1	ST_54b3	partially_correct_incomplete	The roots are.
+ST.54b3.457.1	ST_54b3	1.0	Leaves and roots.
+ST.54b3.469.1	ST_54b3	1.0	A plant.
+ST.54b3.470.1	ST_54b3	1.0	The small leaves and roots.
+ST.54b3.486.1	ST_54b3	irrelevant	It betakes the pea.
+ST.54b3.487.1	ST_54b3	1.0	The embryo is the part of the plant that grows.
+ST.54b3.492.1	ST_54b3	irrelevant	It helps the baby to eat food.
+ST.54b3.495.1	ST_54b3	1.0	The part that grows into a plant.
+ST.54b3.501.1	ST_54b3	partially_correct_incomplete	The part that grows a leaf, stem.
+ST.54b3.504.1	ST_54b3	1.0	Grows into a plant.
+ST.54b3.522.1	ST_54b3	partially_correct_incomplete	Embryo grows the leaves.
+ST.54b3.523.1	ST_54b3	partially_correct_incomplete	Stem and leaf and baby.
+ST.54b3.524.1	ST_54b3	partially_correct_incomplete	The leave, stem, and spout.
+ST.54b3.533.1	ST_54b3	irrelevant	Stem.
+ST.54b3.535.1	ST_54b3	partially_correct_incomplete	Helps root, leaves, and stem.
+ST.54b3.537.1	ST_54b3	partially_correct_incomplete	Leaves, stem.
+ST.54b3.538.1	ST_54b3	1.0	It is the baby seed.
+ST.54b3.540.1	ST_54b3	1.0	Baby plant.
+ST.54b3.561.1	ST_54b3	1.0	The whale structure includes the root, stem, and leaves.
+ST.54b3.571.1	ST_54b3	irrelevant	The sack of food for the seed.
+ST.54b3.574.1	ST_54b3	partially_correct_incomplete	The root and stem of a plant.
+ST.54b3.576.1	ST_54b3	1.0	Part of a seed that grows into a plant.
+ST.54b3.578.1	ST_54b3	1.0	Where leaves, roots or a stem grows.
+ST.54b3.594.1	ST_54b3	1.0	The embryo is the part that grows into the roots, stems, and leaves.
+ST.54b3.599.1	ST_54b3	irrelevant	The embryo is the whole structure.
+ST.54b3.639.1	ST_54b3	1.0	The young plant.
+ST.54b3.490.1	ST_54b3	partially_correct_incomplete	The sprout that grows into a stem.
+ST.54b3.560.1	ST_54b3	partially_correct_incomplete	The embryo is the part of the seed that grow into the root and then the stem.
+ST.54b3.591.1	ST_54b3	irrelevant	Food.
+ST.54b3.641.1	ST_54b3	partially_correct_incomplete	Protects stem and root.

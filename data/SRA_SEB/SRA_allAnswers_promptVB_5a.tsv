@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+VB.5a.384.1	VB_5a	irrelevant	This graph tells me this tree has a lot of rings.
+VB.5a.388.1	VB_5a	partially_correct_incomplete	How long it took to get a number of rings.
+VB.5a.394.1	VB_5a	partially_correct_incomplete	The graph tells you over time how many rings are in the tree.
+VB.5a.397.1	VB_5a	irrelevant	The graph tells me that the number of rings is really high.
+VB.5a.399.1	VB_5a	1.0	It tells me the number of rings grows. So does the time.
+VB.5a.401.1	VB_5a	irrelevant	How old the tree is.
+VB.5a.416.1	VB_5a	irrelevant	This graph tells me the number of the tree's rings and how long.
+VB.5a.419.1	VB_5a	partially_correct_incomplete	That it goes from 0 and up.
+VB.5a.423.1	VB_5a	irrelevant	The number of times it rings and the times.
+VB.5a.429.1	VB_5a	partially_correct_incomplete	That there is a lot of rings and a lot of time.
+VB.5a.431.1	VB_5a	irrelevant	I think the graph tells me that all the numbers are common.
+VB.5a.440.1	VB_5a	1.0	It tells me that the older the tree the more rings it has.
+VB.5a.444.1	VB_5a	irrelevant	I think this graph tells me that the time is about 25 seconds and the number of tree rings 20 times.
+VB.5a.454.1	VB_5a	irrelevant	The graph tells you the number of tree rings.
+VB.5a.462.1	VB_5a	partially_correct_incomplete	That the time goes up.
+VB.5a.469.1	VB_5a	1.0	The more the time the more the tree rings.
+VB.5a.475.1	VB_5a	irrelevant	It shows you the number of tree rings and the time.
+VB.5a.477.1	VB_5a	irrelevant	This graph tells me the number of tree rings on the y axis and tells me the time on the x axis.
+VB.5a.483.1	VB_5a	1.0	Number of tree rings gets larger over time.
+VB.5a.486.1	VB_5a	1.0	As time goes on the of tree rings go up.
+VB.5a.489.1	VB_5a	1.0	As time goes on the number of tree rings increases.
+VB.5a.497.1	VB_5a	1.0	As time goes on the number of tree rings increases.
+VB.5a.498.1	VB_5a	1.0	As time goes on the number of tree rings increases.
+VB.5a.506.1	VB_5a	1.0	As time goes on the number of tree rings grows higher.
+VB.5a.521.1	VB_5a	1.0	As time goes on the number goes up.
+VB.5a.523.1	VB_5a	1.0	As time goes on the number of tree ring are higher.
+VB.5a.535.1	VB_5a	1.0	As time goes on the number gets larger.
+VB.5a.537.1	VB_5a	1.0	As time goes on the number of tree rings are increasing as it goes.
+VB.5a.539.1	VB_5a	1.0	As time goes on the of number of tree rings go up.
+VB.5a.545.1	VB_5a	1.0	As time goes on the tree rings are going up.
+VB.5a.626.1	VB_5a	1.0	The tree rings and time are both increasing.
+VB.5a.632.1	VB_5a	1.0	The number of tree rings and the time is increasing.
+VB.5a.636.1	VB_5a	1.0	That the time increasing and the tree rings are increasing too.
+VB.5a.638.1	VB_5a	1.0	The time is increasing the tree rings are increasing.
+VB.5a.639.1	VB_5a	1.0	They are both are increasing.
+VB.5a.643.1	VB_5a	partially_correct_incomplete	The rings and the tree rings are increasing.
+VB.5a.452.1	VB_5a	irrelevant	The more tree rings the faster. The less, the slower.
+VB.5a.466.1	VB_5a	irrelevant	This graph tells you how many tree rings grow on a tree in a certain amount of time.
+VB.5a.481.1	VB_5a	1.0	This graph shows that the number of tree rings was increasing by a certain amount of time.
+VB.5a.634.1	VB_5a	partially_correct_incomplete	They look like it increases.

@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.6b.101.1	ME_6b	1.0	I chose it because all the wires have to be hooked together to make a circuit.
+ME.6b.105.1	ME_6b	1.0	I chose no because there has to be another wire connecting the 2 or you can use a switch.
+ME.6b.108.1	ME_6b	1.0	Because there needs to be another wire.
+ME.6b.113.1	ME_6b	1.0	Because it got half of it cut off so you cannot make it go back and forth.
+ME.6b.120.1	ME_6b	1.0	No because the circuit got cut off.
+ME.6b.121.1	ME_6b	1.0	It is not in a circle.
+ME.6b.140.1	ME_6b	1.0	I chose it because there needs to be more wires on the sign.
+ME.6b.141.1	ME_6b	partially_correct_incomplete	To see if the energy goes through it or not to make a circuit.
+ME.6b.149.1	ME_6b	1.0	It does not have the wire to make it a complete circuit.
+ME.6b.178.1	ME_6b	1.0	It is not a circuit at all.
+ME.6b.181.1	ME_6b	1.0	Because it is not flowing in a circle.
+ME.6b.185.1	ME_6b	1.0	I chose that answer because it is not a complete circuit.
+ME.6b.191.1	ME_6b	1.0	I chose it because the wire is not connected right to the D-cell.
+ME.6b.206.1	ME_6b	irrelevant	There is no source.
+ME.6b.207.1	ME_6b	irrelevant	The wire cannot make the motor run.
+ME.6b.208.1	ME_6b	1.0	Because the line are not connected.
+ME.6b.215.1	ME_6b	1.0	There is an open circuit.
+ME.6b.216.1	ME_6b	irrelevant	Because there is a no battery for the motor to work.
+ME.6b.220.1	ME_6b	irrelevant	Because the is no D-cell.
+ME.6b.224.1	ME_6b	irrelevant	I chose that answer because there is no battery.
+ME.6b.225.1	ME_6b	1.0	No, because the circuit need to be connected on both sides.
+ME.6b.226.1	ME_6b	1.0	I picked that one because the line on the left is not hooked to anything.
+ME.6b.227.1	ME_6b	irrelevant	I chose that answer because it has a positive and a negative.
+ME.6b.247.1	ME_6b	1.0	I chose no because it is not a complete circuit.
+ME.6b.250.1	ME_6b	1.0	I chose no because the circuit is not closed.
+ME.6b.251.1	ME_6b	1.0	I chose no because it is not a complete circuit.
+ME.6b.254.1	ME_6b	irrelevant	I choose that answer because there is no switch to turn it on.
+ME.6b.277.1	ME_6b	1.0	Because it is not complete.
+ME.6b.278.1	ME_6b	1.0	No, because it is not a full circuit.
+ME.6b.292.1	ME_6b	1.0	Because it no a circuit.
+ME.6b.293.1	ME_6b	1.0	I chose that answer because it is not a complete circuit.
+ME.6b.313.1	ME_6b	irrelevant	It will not work because you have to have a battery or it will not work.
+ME.6b.314.1	ME_6b	1.0	It will not work because it have a open circuit.
+ME.6b.318.1	ME_6b	1.0	It is an open circuit so it will not run.
+ME.6b.323.1	ME_6b	1.0	I chose that answer because one of the 2 ends are not touching.
+ME.6b.383.1	ME_6b	1.0	It is not a complete circuit.
+ME.6b.107.1	ME_6b	1.0	I choose no because the wires are not connecting.
+ME.6b.148.1	ME_6b	1.0	It does not make a complete circuit.
+ME.6b.176.1	ME_6b	1.0	I chose this answer because they are missing a wire.
+ME.6b.195.1	ME_6b	1.0	The circuit is open.

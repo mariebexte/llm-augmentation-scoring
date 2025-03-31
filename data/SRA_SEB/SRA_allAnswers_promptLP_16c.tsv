@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+LP.16c.103.1	LP_16c	contradictory	The disadvantage of a single movable pulley is you have to pull or push the pulley up or down.
+LP.16c.111.1	LP_16c	partially_correct_incomplete	You have to use more rope.
+LP.16c.120.1	LP_16c	irrelevant	You pull the effort up show how many Newtons you have to lift the load.
+LP.16c.126.1	LP_16c	irrelevant	You have to push or pull up or down.
+LP.16c.138.1	LP_16c	1.0	The disadvantage is that it is 3 times as much rope.
+LP.16c.139.1	LP_16c	partially_correct_incomplete	You would pull 3 times.
+LP.16c.144.1	LP_16c	1.0	You have to pull 3 times as much.
+LP.16c.147.1	LP_16c	irrelevant	You would have to apply.
+LP.16c.153.1	LP_16c	partially_correct_incomplete	3 times harder to pull.
+LP.16c.172.1	LP_16c	partially_correct_incomplete	It takes more rope.
+LP.16c.174.1	LP_16c	partially_correct_incomplete	You will have to pull the rope farther.
+LP.16c.221.1	LP_16c	partially_correct_incomplete	You will have to pull more rope.
+LP.16c.229.1	LP_16c	irrelevant	Pull longer.
+LP.16c.241.1	LP_16c	irrelevant	The distance of a single movable is 20 meters instead of 30 meters of that system.
+LP.16c.247.1	LP_16c	irrelevant	You have less distance to move the load.
+LP.16c.254.1	LP_16c	partially_correct_incomplete	A single movable pulley has less rope, so it does not have to travel as much from 10 meters to lift the load.
+LP.16c.256.1	LP_16c	irrelevant	The picture shows a single fixed to single moveable effort upward which needs more effort than a single moveable.
+LP.16c.257.1	LP_16c	irrelevant	The single movable does not have as many rope supporting the load.
+LP.16c.259.1	LP_16c	partially_correct_incomplete	There are more ropes that you have to pull.
+LP.16c.281.1	LP_16c	irrelevant	It takes more effort to lift the load.
+LP.16c.290.1	LP_16c	irrelevant	Single movable has a better directional advantage.
+LP.16c.320.1	LP_16c	partially_correct_incomplete	This requires more rope to be pulled.
+LP.16c.323.1	LP_16c	partially_correct_incomplete	There is more rope so you have to pull longer.
+LP.16c.329.1	LP_16c	irrelevant	For this you have to use an extra pulley.
+LP.16c.332.1	LP_16c	partially_correct_incomplete	You have to pull a lot of rope.
+LP.16c.346.1	LP_16c	partially_correct_incomplete	You have to pull more rope to get it farther with the single fixed, single movable upward.
+LP.16c.364.1	LP_16c	1.0	On this system you have to pull 3 times as much compared to 2 times as much rope.
+LP.16c.366.1	LP_16c	partially_correct_incomplete	You have to pull the rope twice the distance you want to move it.
+LP.16c.381.1	LP_16c	partially_correct_incomplete	You must pull the rope farther.
+LP.16c.383.1	LP_16c	partially_correct_incomplete	There is more rope so you would have to pull longer.
+LP.16c.388.1	LP_16c	irrelevant	The disadvantage is that you would have to go to the top of the building then go back down.
+LP.16c.416.1	LP_16c	irrelevant	The disadvantage is that it is easier to lift with a single movable because it moves up faster to where you need it.
+LP.16c.421.1	LP_16c	irrelevant	A directional advantage.
+LP.16c.422.1	LP_16c	partially_correct_incomplete	You need a longer string.
+LP.16c.423.1	LP_16c	irrelevant	Mechanical.
+LP.16c.489.1	LP_16c	partially_correct_incomplete	There is twice as much rope.
+LP.16c.600.1	LP_16c	partially_correct_incomplete	The single fixed to single movable upward is good to use, but single movable is a lot easier for you to lift the load because there is less rope supporting it.
+LP.16c.605.1	LP_16c	irrelevant	There are 3 rope supporting the load for 2 single fixed or single movable upward effort so on a single movable there are only 2 ropes supporting the load so the reduction is greater on a single fixed or single movable upward effort.
+LP.16c.627.1	LP_16c	1.0	You lose distance, for this pulley you have to move the effort 15 centimeters to move the load 5 centimeters. For the single movable to move the load 5 centimeters you only have to move the effort 10 centimeters.
+LP.16c.647.1	LP_16c	irrelevant	This pulley has a directional disadvantage and so does the single movable.

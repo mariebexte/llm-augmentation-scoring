@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.65b.101.1	ME_65b	1.0	It will happen because it is a parallel circuit not a series.
+ME.65b.107.1	ME_65b	1.0	This will happen because the other 2 bulbs will have a its own pathway, and it is a parallel circuit.
+ME.65b.108.1	ME_65b	1.0	Because it is a parallel circuit.
+ME.65b.111.1	ME_65b	contradictory	Because I think it is a series and series have to share and takes more power to form it.
+ME.65b.113.1	ME_65b	irrelevant	Because there is only one D-Cell so 3 bulbs will definitely not work worse.
+ME.65b.118.1	ME_65b	contradictory	Because the bulb does not have its own path of electricity to flow.
+ME.65b.119.1	ME_65b	1.0	That happens because it is a parallel circuit.
+ME.65b.140.1	ME_65b	irrelevant	It happens because the 2 bulbs in the middle are connected together and they both are hooked to the wires.
+ME.65b.141.1	ME_65b	1.0	Because the bulbs are in parallel circuit.
+ME.65b.146.1	ME_65b	1.0	Because it is a parallel circuit.
+ME.65b.152.1	ME_65b	1.0	Because it is a parallel circuit.
+ME.65b.153.1	ME_65b	1.0	It happens because it is a parallel circuit.
+ME.65b.155.1	ME_65b	irrelevant	That happens because the electricity is still going around the other 2 bulbs.
+ME.65b.159.1	ME_65b	irrelevant	It stays lit.
+ME.65b.174.1	ME_65b	irrelevant	That happens because just because one burns out does not mean the rest will and electricity can still flow.
+ME.65b.176.1	ME_65b	partially_correct_incomplete	That happens because they each have their own circuit.
+ME.65b.178.1	ME_65b	1.0	It is a parallel circuit.
+ME.65b.180.1	ME_65b	contradictory	That happens because this is a series circuit. A series circuit means that if one bulb burns out they all do.
+ME.65b.181.1	ME_65b	1.0	They will stay on because it is in a parallel circuit.
+ME.65b.183.1	ME_65b	1.0	The reason is that the bulbs are in a parallel circuit.
+ME.65b.185.1	ME_65b	1.0	That happens because it is a parallel circuit which means it should run as long as you do not open the parallel circuit.
+ME.65b.189.1	ME_65b	irrelevant	It happens because if it is a cut off where I marked it they would still light.
+ME.65b.190.1	ME_65b	contradictory	Why, because it is a parallel circuit, and if one burns out they all burn out they all stay on.
+ME.65b.191.1	ME_65b	1.0	It happens because that string of lights is a parallel string of lights.
+ME.65b.192.1	ME_65b	1.0	This happens because when a parallel circuit is formed like this one the D-cell still allows the electricity to flow through the circuit.
+ME.65b.206.1	ME_65b	irrelevant	Because it is a cinematic circuit.
+ME.65b.207.1	ME_65b	contradictory	The bulbs are connecting to the same circuit. It will not work.
+ME.65b.208.1	ME_65b	irrelevant	The magnetic force will still go through.
+ME.65b.215.1	ME_65b	irrelevant	Because electricity still goes through the wires to the others.
+ME.65b.256.1	ME_65b	1.0	Because it is a parallel circuit.
+ME.65b.277.1	ME_65b	1.0	That means it is a parallel circuit and if 2 bulbs burn out one will still be lit.
+ME.65b.283.1	ME_65b	irrelevant	Because then it will not have a way to go.
+ME.65b.292.1	ME_65b	irrelevant	The bulb share the same D-Cell.
+ME.65b.318.1	ME_65b	irrelevant	The electricity will still flow through the wires to get to the other lights.
+ME.65b.324.1	ME_65b	contradictory	If the 2 bulbs in the middle burns out the one on top will.
+ME.65b.327.1	ME_65b	1.0	Because it is a parallel circuit.
+ME.65b.102.1	ME_65b	1.0	It is a parallel that is why just that one will go out.
+ME.65b.148.1	ME_65b	1.0	It is a parallel circuit and each light bulb has its own path to the D-Cell or power supply.
+ME.65b.173.1	ME_65b	1.0	It will happen because it is a parallel circuit.
+ME.65b.212.1	ME_65b	contradictory	I chose this answer because it is a series.

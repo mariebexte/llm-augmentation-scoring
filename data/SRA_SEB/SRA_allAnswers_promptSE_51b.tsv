@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+SE.51b.103.1	SE_51b	partially_correct_incomplete	Takes the same amount of space.
+SE.51b.108.1	SE_51b	partially_correct_incomplete	They look the same and it could hold the same amount of water.
+SE.51b.114.1	SE_51b	contradictory	The reason why I picked less than is because I think that Y is going to contain the different amount after 30 minutes.
+SE.51b.118.1	SE_51b	1.0	I expect the temperature would be the same because they were the same on everything.
+SE.51b.123.1	SE_51b	1.0	It really does not matter the only thing that matters is the amount of area.
+SE.51b.132.1	SE_51b	irrelevant	It is not the shape that makes the difference, it is the area.
+SE.51b.164.1	SE_51b	partially_correct_incomplete	Because it has the same amount of water and heat.
+SE.51b.182.1	SE_51b	1.0	I think it will just be the same temperature. Because it is the same shape.
+SE.51b.191.1	SE_51b	1.0	X and Y both have the same solar water heater so the temperature will be the same.
+SE.51b.255.1	SE_51b	contradictory	Because I think it might be higher.
+SE.51b.257.1	SE_51b	partially_correct_incomplete	They both are the same size, have the same water amount, and are left out for the same time.
+SE.51b.258.1	SE_51b	contradictory	Because the temperature would just go higher.
+SE.51b.319.1	SE_51b	contradictory	Because until you get to 5 minute to 25 minute these different numbers but until the 30 it goes down and sometimes it could be the same.
+SE.51b.325.1	SE_51b	contradictory	More? Because they are not facing at the same direction the Y is facing right and the X is facing left.
+SE.51b.331.1	SE_51b	contradictory	I chose less than because X is a little bit more smaller.
+SE.51b.339.1	SE_51b	irrelevant	Because water really does not change very much.
+SE.51b.388.1	SE_51b	1.0	Same, because they are the same size triangles and in the same size boxes, with the same amount of water.
+SE.51b.389.1	SE_51b	1.0	I think the temperature will stay the same because they are the same shapes.
+SE.51b.393.1	SE_51b	1.0	Because the solar water heaters are the same size and there is the same amount of water in each container.
+SE.51b.402.1	SE_51b	1.0	I think they would both heat up the same because they are the same size and shape just faced a different way.
+SE.51b.418.1	SE_51b	1.0	Because they look the same so it would be the same.
+SE.51b.427.1	SE_51b	partially_correct_incomplete	They both have the same amount of surface area in the container and are filled with the same amount of water.
+SE.51b.434.1	SE_51b	1.0	It would be the same because they both have the same amount of water and they are the same size.
+SE.51b.439.1	SE_51b	1.0	I think same because they both have the same amount of black and the surface area look the same, and they are both the same shape.
+SE.51b.441.1	SE_51b	1.0	I think X and Y's temperature would be the same because it is the same just flipped.
+SE.51b.487.1	SE_51b	partially_correct_incomplete	It would be the same because for it to be greater than or less than it depends where you put the solar water heater.
+SE.51b.490.1	SE_51b	contradictory	It would be greater than because the cover on X is bigger than the one on Y.
+SE.51b.492.1	SE_51b	1.0	I think it would be the same because there is no change in variables.
+SE.51b.508.1	SE_51b	1.0	It would be the same because it does not matter what position the black surface area is, it matters what size.
+SE.51b.511.1	SE_51b	1.0	I think the same because both the heaters are the same.
+SE.51b.529.1	SE_51b	1.0	They have the same surface area, just flipped so they will heat equally.
+SE.51b.532.1	SE_51b	partially_correct_incomplete	The triangles are the same size.
+SE.51b.533.1	SE_51b	1.0	I chose same because they are the same figure and size. Y is facing the other way though it is still the same.
+SE.51b.540.1	SE_51b	1.0	Because they are the same size and same color so it is going to be the same temperature.
+SE.51b.545.1	SE_51b	irrelevant	Because they both have the same amount of water.
+SE.51b.602.1	SE_51b	1.0	Because if you put something in at the same time it will get the same results as the other one.
+SE.51b.261.1	SE_51b	irrelevant	The as the day go on it gets cooler because the sun is going down.
+SE.51b.318.1	SE_51b	1.0	Because the triangles and containers are the same size and color they will both absorb the same amount of heat.
+SE.51b.398.1	SE_51b	1.0	I think the same because it is the same size, same shape, same color. It is just placed differently in the container which would not have an impact.
+SE.51b.497.1	SE_51b	1.0	They would be the same because they are the exact same size in the same position with the same size of containers.

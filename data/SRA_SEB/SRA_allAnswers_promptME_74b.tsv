@@ -1,0 +1,42 @@
+AnswerId	PromptId	Score	AnswerText
+ME.74b.101.1	ME_74b	irrelevant	It is able to because you have opposable thumbs.
+ME.74b.105.1	ME_74b	irrelevant	The machines probably has a sensor that tells it when to drop the beam.
+ME.74b.107.1	ME_74b	partially_correct_incomplete	There is switch to turn it on and off.
+ME.74b.111.1	ME_74b	partially_correct_incomplete	He probably has a switch hook up to it.
+ME.74b.118.1	ME_74b	partially_correct_incomplete	It has a switch.
+ME.74b.119.1	ME_74b	1.0	The electromagnet is turned off.
+ME.74b.121.1	ME_74b	partially_correct_incomplete	Turning a switch or pushing a button.
+ME.74b.123.1	ME_74b	partially_correct_incomplete	Someone will turn off the switch.
+ME.74b.140.1	ME_74b	1.0	There is a switch that turns the truck off and on when off it has no magnetism so it drops.
+ME.74b.141.1	ME_74b	partially_correct_incomplete	It is connected to a switch that turns it on and off.
+ME.74b.142.1	ME_74b	1.0	The magnet can turn on and off.
+ME.74b.144.1	ME_74b	1.0	By turning off the electricity.
+ME.74b.146.1	ME_74b	irrelevant	Well the person can cut it out and that is how it will drop.
+ME.74b.147.1	ME_74b	partially_correct_incomplete	They have the switch off.
+ME.74b.155.1	ME_74b	partially_correct_incomplete	The machine is able to drop onto the truck because there is a on and off switch.
+ME.74b.173.1	ME_74b	partially_correct_incomplete	It is able to because they have a switch that turns it off and on.
+ME.74b.176.1	ME_74b	1.0	They turn off the magnetism.
+ME.74b.178.1	ME_74b	partially_correct_incomplete	It cuts it off.
+ME.74b.180.1	ME_74b	contradictory	It is able to because a magnet can never lose its magnetism.
+ME.74b.181.1	ME_74b	partially_correct_incomplete	By turning off the switch.
+ME.74b.185.1	ME_74b	1.0	He is able to by cutting the power of the crane and the drop.
+ME.74b.190.1	ME_74b	1.0	You have to turn off the magnet.
+ME.74b.192.1	ME_74b	1.0	It is able to drop them by shutting off the electricity traveling through it so the steel beams drop.
+ME.74b.206.1	ME_74b	irrelevant	By switching the magnet poles.
+ME.74b.207.1	ME_74b	irrelevant	Not going to attach.
+ME.74b.208.1	ME_74b	1.0	Stopping the magnetic force.
+ME.74b.214.1	ME_74b	1.0	It is able to do that by cutting off the flow of electricity.
+ME.74b.215.1	ME_74b	1.0	By switching the magnet off.
+ME.74b.216.1	ME_74b	irrelevant	It is controlled with a control panel.
+ME.74b.224.1	ME_74b	irrelevant	It is able by because it is steel.
+ME.74b.225.1	ME_74b	1.0	The machine can drop its magnetic force.
+ME.74b.226.1	ME_74b	partially_correct_incomplete	There is a person that pushes a button and it turns on and off.
+ME.74b.228.1	ME_74b	1.0	It is able to drop them by cutting the force between the magnet and the steel beam.
+ME.74b.247.1	ME_74b	irrelevant	They would use a controller so that they let them go and drop them.
+ME.74b.253.1	ME_74b	partially_correct_incomplete	The man press this button to drop it.
+ME.74b.276.1	ME_74b	irrelevant	They will have to dump it, they do not have another way.
+ME.74b.293.1	ME_74b	irrelevant	You could pick up the beam and put it on the truck.
+ME.74b.313.1	ME_74b	partially_correct_incomplete	They would have to have an on and off.
+ME.74b.318.1	ME_74b	partially_correct_incomplete	The machine is able to pick up and drop off because of the electromagnet.
+ME.74b.325.1	ME_74b	1.0	The machine turns off and disconnects the electricity flow.
+ME.74b.328.1	ME_74b	partially_correct_incomplete	There has to be a switch.

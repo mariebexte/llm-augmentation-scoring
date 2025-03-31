@@ -1,0 +1,41 @@
+AnswerId	PromptId	Score	AnswerText
+ME.17d.101.1	ME_17d	1.0	It will work because that is closing the switch.
+ME.17d.102.1	ME_17d	1.0	It will be a closed series.
+ME.17d.105.1	ME_17d	1.0	It will not work because you have to put the switch in front of the negative sign.
+ME.17d.107.1	ME_17d	1.0	That will happen because it will make a complete circuit with the motor.
+ME.17d.108.1	ME_17d	1.0	Because it ends at the positive so it will work.
+ME.17d.115.1	ME_17d	1.0	It is a complete circuit and the bulb is not connected to that circuit, and the motor is.
+ME.17d.118.1	ME_17d	contradictory	It is not complete.
+ME.17d.119.1	ME_17d	1.0	That will happen because it is a complete circuit.
+ME.17d.120.1	ME_17d	1.0	This will happen because the switch is turning that way making a complete circuit.
+ME.17d.121.1	ME_17d	irrelevant	Same as the light but it is switch to the other side.
+ME.17d.140.1	ME_17d	irrelevant	Because the light bulb is on the right.
+ME.17d.141.1	ME_17d	1.0	Because if the switch is to the right it allows energy to flow to the motor.
+ME.17d.142.1	ME_17d	1.0	It got closer to the motor.
+ME.17d.143.1	ME_17d	1.0	Because it makes a complete circuit.
+ME.17d.152.1	ME_17d	1.0	The energy will go in the motor and go back in the positive.
+ME.17d.154.1	ME_17d	1.0	That will happen because the most energy will flow through the motor because the motor is on the right.
+ME.17d.155.1	ME_17d	1.0	That happen because the electricity is flowing around in a circle.
+ME.17d.173.1	ME_17d	1.0	It will happen because the energy source is flowing right.
+ME.17d.176.1	ME_17d	1.0	The motor's circuit will be completed.
+ME.17d.178.1	ME_17d	irrelevant	The switch will be off.
+ME.17d.180.1	ME_17d	irrelevant	It will happen because the switch moved so it turns off another thing.
+ME.17d.181.1	ME_17d	1.0	It will happen because it is flowing in a circle.
+ME.17d.183.1	ME_17d	1.0	It is a circle.
+ME.17d.185.1	ME_17d	irrelevant	Because the energy still has a countless form of energy.
+ME.17d.189.1	ME_17d	1.0	She will make a circle.
+ME.17d.207.1	ME_17d	irrelevant	The switch is closer.
+ME.17d.215.1	ME_17d	1.0	Power goes to the motor then to the light.
+ME.17d.216.1	ME_17d	irrelevant	The switch is not turned to the left.
+ME.17d.228.1	ME_17d	contradictory	That will happen because there is no battery.
+ME.17d.256.1	ME_17d	irrelevant	Because the D-cell is not in the middle.
+ME.17d.277.1	ME_17d	1.0	That is one circuit.
+ME.17d.291.1	ME_17d	non_domain	I learned it in class.
+ME.17d.311.1	ME_17d	irrelevant	Moving the switch to the motor will make it run.
+ME.17d.314.1	ME_17d	irrelevant	It will happen because it is strong.
+ME.17d.327.1	ME_17d	contradictory	Because you turned it off.
+ME.17d.328.1	ME_17d	partially_correct_incomplete	It can work if a wire is connected to the switch from the negative end.
+ME.17d.111.1	ME_17d	partially_correct_incomplete	Because the battery is hooked to the switch.
+ME.17d.253.1	ME_17d	irrelevant	Because Right is to turn off and Left is to turn on.
+ME.17d.254.1	ME_17d	irrelevant	Because she used the special switch.
+ME.17d.313.1	ME_17d	1.0	Because if you already had a series circuit then it has to be a parallel circuit.
