@@ -77,9 +77,9 @@ def train_similarity(run_path, df_train, df_val, df_test, base_model, id_column,
 
     df_inference = cross_dataframes(df=df_test_copy, df_ref=df_train_copy)
     df_inference['sim'] = df_inference.apply(lambda row: row['embedding_1'] @ row['embedding_2'], axis=1)
-    test_answers, test_predictions, test_true_scores = get_preds_from_pairs(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
+    answer_ids, test_predictions, test_true_scores = get_preds_from_pairs(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
 
-    df_test_aggregated = pd.DataFrame({'submission_id': test_answers, 'pred': test_predictions, target_column: test_true_scores})
+    df_test_aggregated = pd.DataFrame({'submission_id': answer_ids, 'pred': test_predictions, target_column: test_true_scores})
     df_test_aggregated.to_csv(os.path.join(run_path, 'test_preds.csv'))
     write_stats(target_dir=run_path, y_true=test_true_scores, y_pred=test_predictions)
 
@@ -170,4 +170,4 @@ def get_preds_from_pairs(df, id_column, pred_column, ref_label_column, true_labe
         pred_labels.append(pred_label)
         true_labels.append(true_label)
 
-    return answer, pred_labels, true_labels
+    return answer_ids, pred_labels, true_labels

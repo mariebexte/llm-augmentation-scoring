@@ -51,7 +51,8 @@ def write_stats(target_dir, y_true, y_pred, labels=None):
 
         stats_file.write(classification_report(y_true=y_true, y_pred=y_pred, zero_division=0, labels=labels))
         stats_file.write('\n\n')
-        stats_file.write(str(get_confusion_matrix(first=y_true, second=y_pred, first_name='true', second_name='predicted')))
+        with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+            stats_file.write(str(get_confusion_matrix(first=y_true, second=y_pred, first_name='true', second_name='predicted')))
         stats_file.write('\n\n')
         stats_file.write('Acc:\t' + str(calculate_accuracy(y_true=y_true, y_pred=y_pred)) + '\n')
         # stats_file.write("Within-1:\t" + str(calculate_within_1(y_true=y_true, y_pred=y_pred)) + '\n')
