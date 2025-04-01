@@ -12,8 +12,8 @@ from copy import deepcopy
 from metrics import calculate_accuracy, calculate_gwets_ac2, calculate_macro_f1, calculate_qwk
 from utils import write_stats
 
-import datasets
-from transformers import ModernBertForSequenceClassification, AutoModelForSequenceClassification, TrainingArguments, Trainer, TrainerCallback
+from datasets import Dataset
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, TrainingArguments, Trainer, TrainerCallback
 
 
 def train_bert(run_path, df_train, df_val, df_test, base_model, id_column, prompt_column, target_column, answer_column, num_epochs, batch_size):
@@ -28,6 +28,34 @@ def train_bert(run_path, df_train, df_val, df_test, base_model, id_column, promp
     label_to_id = {label: label_id for label, label_id in zip(label_set, range(len(label_set)))}
     id_to_label = {label_id: label for label, label_id in label_to_id.items()}
 
+    train_texts = list(df_train.loc[:, answer_column])
+    train_labels = list(df_train.loc[:, target_column])
+    train_labels = [label_to_id[label] for label in train_labels]
+    val_texts = list(df_val.loc[:, answer_column])
+    val_labels = list(df_val.loc[:, target_column])
+    val_labels = [label_to_id[label] for label in val_labels]
+    test_texts = list(df_test.loc[:, answer_column])
+    test_labels = list(df_test.loc[:, target_column])
+    test_labels = [label_to_id[label] for label in test_labels]
+
+    tokenizer = AutoTokenizer.from_pretrained(base_model)
+    model = AutoModelForSequenceClassification.from_pretrained(base_model, num_labels=len(label_set), id2label=id_to_label, label2id=label_to_id)
+    model.cuda()
+
+    # Tokenize the dataset, truncate if longer than max_length, pad with 0's when less than `max_length`
+    train_encodings = tokenizer(train_texts, truncation=True, padding=True)
+    val_encodings = tokenizer(val_texts, truncation=True, padding=True)
+    test_encodings = tokenizer(test_texts, truncation=True, padding=True)
+
+    # Convert tokenized data into torch Dataset
+    train_dataset = Dataset(train_encodings, train_labels)
+    eval_dataset = Dataset(val_encodings, val_labels)
+    test_dataset = Dataset(test_encodings, test_labels)
+
+    # train_dataset = Dataset.from_dict({'text': train_encodings, 'label': train_labels})
+    # eval_dataset = Dataset.from_dict({'text': val_encodings, 'label': val_labels})
+    # test_dataset = Dataset.from_dict({'text': test_encodings, 'label': test_labels})
+
     # If all training instances have the same label: Return this label as prediction for all testing instances
     if len(df_train[target_column].unique()) == 1:
         target_label = list(df_train[target_column].unique())
@@ -35,66 +63,85 @@ def train_bert(run_path, df_train, df_val, df_test, base_model, id_column, promp
         print("All training instances have the same label '"+str(target_label[0])+"'. Predicting this label for all testing instances!")
         return target_label*len(df_test)
 
-    model = ModernBertForSequenceClassification.from_pretrained(base_model, num_labels=len(label_set), id2label=id_to_label, label2id=label_to_id)
-    # model = AutoModelForSequenceClassification.from_pretrained(base_model, num_labels=len(label_set), id2label=id_to_label, label2id=label_to_id)
-    model.cuda()
-
-    print('model was loaded')
-    sys.exit(0)
-
     args = TrainingArguments(
         output_dir=run_path,
-        # Optional training parameters:
         num_train_epochs=num_epochs,
         load_best_model_at_end=True,
         per_device_train_batch_size=batch_size,
+        per_device_eval_batch_size=batch_size,
         eval_strategy='epoch',
-        save_strategy='epoch'
+        save_strategy='epoch',
     )
 
-    # 7. Create a trainer & train
+    # Create a trainer & train
     trainer = Trainer(
         model=model,
         args=args,
+        tokenizer=tokenizer,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
+        compute_metrics=compute_metrics
     )
+
+    dict_val_loss = {}
+    dict_test_preds = {}
+
+    trainer.add_callback(WriteCsvCallback(csv_train=os.path.join(run_path, "train_stats.csv"), csv_eval=os.path.join(run_path, "eval_stats.csv"), dict_val_loss=dict_val_loss))
+    trainer.add_callback(GetTestPredictionsCallback(dict_test_preds=dict_test_preds, save_path=os.path.join(run_path, "test_stats.csv"), trainer=trainer, test_data=test_dataset))
     trainer.train()
     
+    # Determine epoch with lowest validation loss
+    best_epoch = min(dict_val_loss, key=dict_val_loss.get)
+
+    # For this epoch, return test predictions
+    predictions = dict_test_preds[best_epoch]
+
     # Obtain test predictions
     model.eval()
-    
-    with torch.no_grad():
-
-        df_train_copy = deepcopy(df_train)
-        df_test_copy = deepcopy(df_test)
-
-        df_train_copy['embedding'] = df_train_copy[answer_column].apply(model.encode)
-        df_test_copy['embedding'] = df_test_copy[answer_column].apply(model.encode)
-
-    df_inference = cross_dataframes(df=df_test_copy, df_ref=df_train_copy)
-    df_inference['sim'] = df_inference.apply(lambda row: row['embedding_1'] @ row['embedding_2'], axis=1)
-    test_answers, test_predictions, test_true_scores = get_preds_from_pairs(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
-
-    df_test_aggregated = pd.DataFrame({'submission_id': test_answers, 'pred': test_predictions, target_column: test_true_scores})
-    df_test_aggregated.to_csv(os.path.join(run_path, 'test_preds.csv'))
-    write_stats(target_dir=run_path, y_true=test_true_scores, y_pred=test_predictions)
 
     for checkpoint in glob.glob(os.path.join(run_path, 'checkpoint*')):
         shutil.rmtree(checkpoint)
 
-    return df_test_aggregated
+    return predictions
 
 
-# To log loss of training and evaluation to file
+## Callback to monitor performance
+class GetTestPredictionsCallback(TrainerCallback):
+
+    def __init__(self, *args, dict_test_preds, save_path, trainer, test_data, **kwargs):
+
+        super().__init__(*args, **kwargs)
+
+        self.dict_test_preds = dict_test_preds
+        self.save_path = save_path
+        self.trainer = trainer
+        self.test_data=test_data
+        self.df_test_stats = pd.DataFrame()
+
+    def on_log(self, args, state, control, logs=None, **kwargs):
+
+        pred = self.trainer.predict(self.test_data)
+        predictions = pred.predictions.argmax(axis=1)
+        self.dict_test_preds[logs['epoch']] = predictions
+        self.df_test_stats = pd.concat([self.df_test_stats, pd.DataFrame(pred.metrics, index=[int(logs['epoch'])])])
+
+    def on_train_end(self, args, state, control, **kwargs):
+
+        self.df_test_stats.to_csv(self.save_path, index_label='epoch')
+
+
+## Callback to log loss of training and evaluation to file
 class WriteCsvCallback(TrainerCallback):
 
-    def __init__(self, *args, csv_train, csv_eval, **kwargs):
+    def __init__(self, *args, csv_train, csv_eval, dict_val_loss, **kwargs):
+
         super().__init__(*args, **kwargs)
+
         self.csv_train_path = csv_train
         self.csv_eval_path = csv_eval
         self.df_eval = pd.DataFrame()
         self.df_train_eval = pd.DataFrame()
+        self.dict_val_loss = dict_val_loss
 
     def on_log(self, args, state, control, logs=None, **kwargs):
 
@@ -102,15 +149,22 @@ class WriteCsvCallback(TrainerCallback):
 
         # Has info about performance on training data
         if "loss" in logs:
+
             self.df_train_eval = pd.concat([self.df_train_eval, df_log])
         
         # Has info about performance on validation data
         else:
+
             best_model = state.best_model_checkpoint
             df_log["best_model_checkpoint"] = best_model
             self.df_eval = pd.concat([self.df_eval, df_log])
 
+            if 'eval_loss' in logs:
+
+                self.dict_val_loss[logs['epoch']] = logs['eval_loss']
+
     def on_train_end(self, args, state, control, **kwargs):
+
         self.df_eval.to_csv(self.csv_eval_path)
         self.df_train_eval.to_csv(self.csv_train_path)
 
@@ -119,9 +173,30 @@ class WriteCsvCallback(TrainerCallback):
 def compute_metrics(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
-    acc = accuracy_score(labels, preds)
+    acc = calculate_accuracy(labels, preds)
     f1 = calculate_macro_f1(labels, preds)
     return {
       'acc': acc,
       'macro f1': f1,
     }
+
+
+class Dataset(torch.utils.data.Dataset):
+
+    def __init__(self, encodings, labels):
+
+        self.encodings = encodings
+        self.labels = labels
+
+    def __getitem__(self, idx):
+
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item["labels"] = torch.tensor(self.labels[idx])
+        # item = {k: v[idx] for k, v in self.encodings.items()}
+        # item = {k: v[idx].clone().detach() for k, v in self.encodings.items()}
+
+        return item
+
+    def __len__(self):
+
+        return len(self.labels)

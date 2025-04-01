@@ -9,6 +9,9 @@ from metrics import calculate_macro_f1
 
 from copy import deepcopy
 
+import torch._dynamo
+torch._dynamo.config.suppress_errors = True
+
 ## For the three cleaned prompts:
 # Train deep learning models on the original data (LOOCV) 
 # Train deep leanring models on the cleaned generated data
@@ -28,7 +31,9 @@ dict_results = {}
 
 def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_size=8, random_state=2356):
 
-    base_model_name = base_model[base_model.index('/')+1:]
+    base_model_name = base_model
+    if '/' in base_model:
+        base_model_name = base_model[base_model.index('/')+1:]
 
     method_result_dir = result_dir + '_' + base_model_name
     
@@ -123,5 +128,5 @@ def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_s
 
 
 # compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results')
-compare_quality(base_model='answerdotai/ModernBERT-base', result_dir='results')
-# compare_quality(base_model='bert-base-uncased', result_dir='results')
+# compare_quality(base_model='answerdotai/ModernBERT-base', result_dir='results', num_epochs=20)
+compare_quality(base_model='bert-base-uncased', result_dir='results', num_epochs=20)
