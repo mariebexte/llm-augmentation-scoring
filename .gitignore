@@ -9,3 +9,4 @@ llm_preds*/
 results*/
 manual_annotation_study/*
 kappa/*.numbers
+venv*/
