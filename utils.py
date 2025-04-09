@@ -41,13 +41,13 @@ def get_confusion_matrix(first, second, first_name='Annotator 1', second_name='A
     return pd.crosstab(first_series, second_series)
 
 
-def write_stats(target_dir, y_true, y_pred, labels=None):
+def write_stats(target_dir, y_true, y_pred, labels=None, prefix=''):
 
     if not os.path.exists(target_dir):
         os.mkdir(target_dir)
 
     # Stats file and confusion Matrix
-    with open(os.path.join(target_dir, 'stats.txt'), 'w') as stats_file:
+    with open(os.path.join(target_dir, prefix + 'stats.txt'), 'w') as stats_file:
 
         stats_file.write(classification_report(y_true=y_true, y_pred=y_pred, zero_division=0, labels=labels))
         stats_file.write('\n\n')

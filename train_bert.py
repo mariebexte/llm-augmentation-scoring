@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 import glob
+import logging
 
 from copy import deepcopy
 from metrics import calculate_accuracy, calculate_gwets_ac2, calculate_macro_f1, calculate_qwk
@@ -70,7 +71,7 @@ def train_bert(run_path, df_train, df_val, df_test, base_model, id_column, promp
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
         eval_strategy='epoch',
-        save_strategy='epoch',
+        save_strategy='epoch'
     )
 
     # Create a trainer & train
@@ -102,7 +103,12 @@ def train_bert(run_path, df_train, df_val, df_test, base_model, id_column, promp
     for checkpoint in glob.glob(os.path.join(run_path, 'checkpoint*')):
         shutil.rmtree(checkpoint)
 
-    return predictions
+    predictions = list(predictions)
+    predictions = [id_to_label[pred] for pred in predictions]
+
+    write_stats(target_dir=run_path, y_true=list(df_test[target_column]), y_pred=predictions)
+
+    return list(predictions)
 
 
 ## Callback to monitor performance

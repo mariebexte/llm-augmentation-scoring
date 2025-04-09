@@ -77,12 +77,13 @@ def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_s
 
         # df_train=df_train.head(7)
         # df_val=df_val.head(7)
-        # df_test=df_test.head(7)
+        # df_test=df_test.head(10)
 
         true_scores = list(df_test[target_column_test])
 
         # LOOCV on original data
         pred_loocv = []
+        pred_loocv_max = []
 
         for test_idx, df_test_orig in df_test.iterrows():
 
@@ -94,19 +95,25 @@ def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_s
             df_train_orig = df_train_orig.drop(df_val_orig.index)
 
             if base_model == 'all-MiniLM-L6-v2':
-                pred_loocv = pred_loocv + train_similarity(run_path=os.path.join(prompt_result_dir, 'orig'), df_train=df_train_orig, df_val=df_val_orig, df_test=df_test_orig, base_model=base_model, id_column='AnswerId', target_column=target_column_test, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
-            
+                pred, pred_max = train_similarity(run_path=os.path.join(prompt_result_dir, 'orig'), df_train=df_train_orig, df_val=df_val_orig, df_test=df_test_orig, base_model=base_model, id_column='AnswerId', target_column=target_column_test, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
+                pred_loocv = pred_loocv + pred
+                pred_loocv_max = pred_loocv_max + pred_max
+
             else:
-                pred_loocv = pred_loocv + train_bert(run_path=os.path.join(prompt_result_dir, 'orig'), df_train=df_train_orig, df_val=df_val_orig, df_test=df_test_orig, base_model=base_model, id_column='AnswerId', target_column=target_column_test, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size)
+                pred_current = train_bert(run_path=os.path.join(prompt_result_dir, 'orig'), df_train=df_train_orig, df_val=df_val_orig, df_test=df_test_orig, base_model=base_model, id_column='AnswerId', target_column=target_column_test, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size)
+                pred_loocv = pred_loocv + pred_current
 
         write_stats(target_dir=os.path.join(prompt_result_dir, 'orig'), y_true=true_scores, y_pred=pred_loocv)
+
+        pred_messy_max = None
+        pred_clean_max = None 
 
         # Train on generated data
         if base_model == 'all-MiniLM-L6-v2':
             df_test = df_test.rename(columns={target_column_test: target_column_llm})
-            pred_messy = train_similarity(run_path=os.path.join(prompt_result_dir, 'messy'), df_train=df_train, df_val=df_val, df_test=df_test, base_model=base_model, id_column='AnswerId', target_column=target_column_llm, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
+            pred_messy, pred_messy_max = train_similarity(run_path=os.path.join(prompt_result_dir, 'messy'), df_train=df_train, df_val=df_val, df_test=df_test, base_model=base_model, id_column='AnswerId', target_column=target_column_llm, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
             df_test = df_test.rename(columns={target_column_llm: target_column_clean})
-            pred_clean = train_similarity(run_path=os.path.join(prompt_result_dir, 'clean'), df_train=df_train, df_val=df_val, df_test=df_test, base_model=base_model, id_column='AnswerId', target_column=target_column_clean, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
+            pred_clean, pred_clean_max = train_similarity(run_path=os.path.join(prompt_result_dir, 'clean'), df_train=df_train, df_val=df_val, df_test=df_test, base_model=base_model, id_column='AnswerId', target_column=target_column_clean, prompt_column='PromptId', answer_column='AnswerText', num_epochs=num_epochs, batch_size=batch_size, cross_prompt=False)
         
         else:
             df_test = df_test.rename(columns={target_column_test: target_column_llm})
@@ -118,15 +125,27 @@ def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_s
         df_test_copy['pred_messy'] = pred_messy
         df_test_copy['pred_clean'] = pred_clean
         df_test_copy['pred_LOOCV'] = pred_loocv
+
+        if pred_messy_max is not None:
+            df_test_copy['pred_messy_max'] = pred_messy_max
+            df_test_copy['pred_clean_max'] = pred_clean_max
+            df_test_copy['pred_LOOCV_max'] = pred_loocv_max
+
         df_test_copy.to_csv(os.path.join(prompt_result_dir, str(num_labels) + '_way_preds.csv'))
         
         current_results = {'LOOCV': calculate_macro_f1(y_true=true_scores, y_pred=pred_loocv), 'LLM_labels_full': calculate_macro_f1(y_true=true_scores, y_pred=pred_messy), 'LLM_labels_full_cleaned': calculate_macro_f1(y_true=true_scores, y_pred=pred_clean)}
+        
+        if pred_messy_max is not None:
+            current_results['LOOCV_max'] = calculate_macro_f1(y_true=true_scores, y_pred=pred_loocv_max)
+            current_results['LLM_labels_full_max'] = calculate_macro_f1(y_true=true_scores, y_pred=pred_messy_max)
+            current_results['LLM_labels_full_clean_max'] = calculate_macro_f1(y_true=true_scores, y_pred=pred_clean_max)
+        
         dict_results[task_name] = current_results
 
         df_results = pd.DataFrame.from_dict(dict_results).T
-        df_results.to_csv(os.path.join(method_result_dir, 'gold_vs_llm_training_' + base_model + '_' + str(num_labels) +'_way.csv'))
+        df_results.to_csv(os.path.join(method_result_dir, 'gold_vs_llm_training_' + base_model_name + '_' + str(num_labels) +'_way.csv'))
 
 
-# compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results')
-# compare_quality(base_model='answerdotai/ModernBERT-base', result_dir='results', num_epochs=20)
-compare_quality(base_model='bert-base-uncased', result_dir='results', num_epochs=20)
+compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results_v2_run3', num_epochs=5)
+# compare_quality(base_model='answerdotai/ModernBERT-base', result_dir='results', num_epochs=10)
+# compare_quality(base_model='bert-base-uncased', result_dir='results_run3', num_epochs=10)

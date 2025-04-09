@@ -69,7 +69,8 @@ def train_similarity(run_path, df_train, df_val, df_test, base_model, id_column,
     
     with torch.no_grad():
 
-        df_train_copy = deepcopy(df_train)
+        df_train_copy = pd.concat([df_train, df_val])
+        # df_train_copy = deepcopy(df_train)
         df_test_copy = deepcopy(df_test)
 
         df_train_copy['embedding'] = df_train_copy[answer_column].apply(model.encode)
@@ -77,18 +78,24 @@ def train_similarity(run_path, df_train, df_val, df_test, base_model, id_column,
 
     df_inference = cross_dataframes(df=df_test_copy, df_ref=df_train_copy)
     df_inference['sim'] = df_inference.apply(lambda row: row['embedding_1'] @ row['embedding_2'], axis=1)
-    answer_ids, test_predictions, test_true_scores = get_preds_from_pairs(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
 
+    answer_ids, test_predictions, test_true_scores = get_preds_from_pairs(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
     df_test_aggregated = pd.DataFrame({'submission_id': answer_ids, 'pred': test_predictions, target_column: test_true_scores})
     df_test_aggregated.to_csv(os.path.join(run_path, 'test_preds.csv'))
     write_stats(target_dir=run_path, y_true=test_true_scores, y_pred=test_predictions)
+
+    answer_ids_max, test_predictions_max, test_true_scores_max = get_preds_from_pairs_max(df=df_inference, id_column=id_column+'_1', pred_column='sim', ref_label_column=target_column+'_2', true_label_column=target_column+'_1')
+    df_test_aggregated_max = pd.DataFrame({'submission_id': answer_ids_max, 'pred': test_predictions_max, target_column: test_true_scores_max})
+    df_test_aggregated_max.to_csv(os.path.join(run_path, 'test_preds_max.csv'))
+    write_stats(target_dir=run_path, y_true=test_true_scores_max, y_pred=test_predictions_max, prefix='max_')
 
     for checkpoint in glob.glob(os.path.join(run_path, 'checkpoint*')):
         shutil.rmtree(checkpoint)
 
     df_test_merged = pd.merge(left=df_test, right=df_test_aggregated, left_on=id_column, right_on='submission_id')
+    df_test_merged_max = pd.merge(left=df_test, right=df_test_aggregated_max, left_on=id_column, right_on='submission_id')
 
-    return list(df_test_merged['pred'])
+    return list(df_test_merged['pred']), list(df_test_merged_max['pred'])
 
 
 # _2 is ref!
@@ -165,6 +172,38 @@ def get_preds_from_pairs(df, id_column, pred_column, ref_label_column, true_labe
         pred_label = max(score_probs, key=score_probs.get)
         # print('probabilities', score_probs)
         # print('prediction', pred_label)
+
+        answer_ids.append(answer)
+        pred_labels.append(pred_label)
+        true_labels.append(true_label)
+
+    return answer_ids, pred_labels, true_labels
+
+
+def get_preds_from_pairs_max(df, id_column, pred_column, ref_label_column, true_label_column):
+
+    answer_ids = []
+    pred_labels = []
+    true_labels = []
+
+    # For each test instance
+    for answer, df_answer in df.groupby(id_column):
+
+        true_label = list(df_answer[true_label_column].unique())
+        if len(true_label) > 1:
+            print('True label not unique!', true_label)
+            sys.exit(0)
+
+        else:
+            true_label = true_label[0]
+
+        # Find most similar answer and its label
+        max_idx = df_answer[pred_column].idxmax()
+        pred_label = df_answer.loc[max_idx][ref_label_column]
+
+        # print(max_idx, pred_label, answer)
+        # print(df_answer.loc[max_idx]['AnswerText_1'])
+        # print(df_answer.loc[max_idx]['AnswerText_2'])
 
         answer_ids.append(answer)
         pred_labels.append(pred_label)
