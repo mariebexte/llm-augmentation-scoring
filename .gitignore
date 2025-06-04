@@ -11,3 +11,4 @@ manual_annotation_study/*
 kappa/*.numbers
 venv*/
 *.out
+type_analysis

@@ -42,11 +42,14 @@ def get_ttr(answer_list):
     return values
 
 
+# Write length stats about a datset to file
 def calculate_stats(list_of_data_sources, target_column, answer_column, result_file, file_prefix='', file_suffix=''):
 
     stats = {}
 
     for prompt in df_prompts.id:
+
+        print(prompt)
 
         dfs = []
         for source in list_of_data_sources:
@@ -105,6 +108,7 @@ def get_token_fd(answer_list):
     return FreqDist(all_tokens)
 
 
+# Write stats about tokens in the two datasets
 def compare_corpora(sources_orig, sources_llm, result_file):
 
     stats = {}
@@ -134,22 +138,13 @@ def compare_corpora(sources_orig, sources_llm, result_file):
             'num_llm': len(tokens_llm),
         }
 
-        # print('ORIG: ---')
-        # print(tokens_orig.difference(tokens_llm))
-        # print('---')
-
-        # print('LLM: ---')
-        # print(tokens_llm.difference(tokens_orig))
-        # print('---')
-
-        # sys.exit(0)
-
         df_stats = pd.DataFrame.from_dict(stats).T
         df_stats.index.name = 'prompt'
         df_stats.loc['mean'] = df_stats.mean()
         df_stats.to_csv(result_file)
 
 
+# To compare the two data sources wrt the types present in the answers
 def extract_type_overview(sources_orig, sources_llm, result_dir):
 
     if not os.path.exists(result_dir):
@@ -213,6 +208,7 @@ def extract_type_overview(sources_orig, sources_llm, result_dir):
                 file.write(str(count)+'\t'+type+'\n')
 
 
+# Print answers that contain Chinese characters
 def find_chinese(sources_llm):
 
     stats = {}
@@ -230,11 +226,11 @@ def find_chinese(sources_llm):
             if len(result) > 0:
                 print(answer, result)
 
-# calculate_stats(list_of_data_sources=[orig_data_path], file_prefix='SRA_allAnswers_prompt', file_suffix='.tsv', target_column='Score', answer_column='AnswerText', result_file='data/stats_orig.csv')
-# calculate_stats(list_of_data_sources=[gen_data_path_1, gen_data_path_2], file_suffix='_llm.csv', target_column='label', answer_column='text_clean', result_file='data/stats_llm.csv')
+
+calculate_stats(list_of_data_sources=[orig_data_path], file_prefix='SRA_allAnswers_prompt', file_suffix='.tsv', target_column='Score', answer_column='AnswerText', result_file='data/stats_orig.csv')
+calculate_stats(list_of_data_sources=[gen_data_path_1, gen_data_path_2], file_suffix='_llm.csv', target_column='label', answer_column='text_clean', result_file='data/stats_llm.csv')
 
 # compare_corpora(sources_orig=[orig_data_path], sources_llm=[gen_data_path_1, gen_data_path_2], result_file='data/compare_token_sets.csv')
 
 # find_chinese(sources_llm=[gen_data_path_1, gen_data_path_2])
-
-extract_type_overview(sources_orig=[orig_data_path], sources_llm=[gen_data_path_1, gen_data_path_2], result_dir='type_analysis')
+# extract_type_overview(sources_orig=[orig_data_path], sources_llm=[gen_data_path_1, gen_data_path_2], result_dir='type_analysis')

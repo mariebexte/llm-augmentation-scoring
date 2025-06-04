@@ -132,23 +132,11 @@ def plot_curve_all_methods(results_file, result_dir, prefix='', sizes=None):
     plt.cla()
     
 
-# plot_curve(results_file='results_LR/llm_balancedLR_5_way.csv', result_dir='curves_5_way')
-# plot_curve(results_file='results_LR/llm_balancedLR_3_way.csv', result_dir='curves_3_way')
-# plot_curve(results_file='results_LR/llm_balancedLR_2_way.csv', result_dir='curves_2_way')
-
-# plot_curve(results_file='results_clean_LR/llm_balancedLR_clean_5_way.csv', result_dir='curves_clean_5_way')
-# plot_curve(results_file='results_clean_LR/llm_balancedLR_clean_3_way.csv', result_dir='curves_clean_3_way')
-# plot_curve(results_file='results_clean_LR/llm_balancedLR_clean_2_way.csv', result_dir='curves_clean_2_way')
 
 plot_curve_all_methods(results_file='results_pretrained_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_5_way.csv', result_dir='curves_pretrained_all-MiniLM-L6-v2', sizes=[1,2,3,5,10,25,50,100])
 plot_curve_all_methods(results_file='results_pretrained_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_5_way.csv', result_dir='curves_pretrained_all-MiniLM-L6-v2', prefix='max_', sizes=[1,2,3,5,10,25,50,100])
-# plot_curve(results_file='results_pretrained_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_5_way.csv', result_dir='curves_pretrained_all-MiniLM-L6-v2', sizes=[1,2,3,5,10,25,50,100])
-# plot_curve(results_file='results_pretrained_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_5_way.csv', result_dir='curves_pretrained_all-MiniLM-L6-v2', prefix='max_', sizes=[1,2,3,5,10,25,50,100])
 
-# plot_curve(results_file='results_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_clean_balanced_all-MiniLM-L6-v2', prefix='', sizes=[2,3,4,5,6,7,14,28])
-# plot_curve(results_file='results_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_clean_balanced_all-MiniLM-L6-v2', prefix='max_', sizes=[2,3,4,5,6,7,14,28])
-
-# plot_curve(results_file='results_CURVES_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_clean_balanced_all-MiniLM-L6-v2', prefix='', sizes=[5,10,15,20,25])
-# plot_curve(results_file='results_CURVES_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_clean_balanced_all-MiniLM-L6-v2', prefix='max_', sizes=[5,10,15,20,25])
-# plot_curve(results_file='results_CURVES_dirty_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_dirty_balanced_all-MiniLM-L6-v2', prefix='', sizes=[5,10,15,20,25])
-# plot_curve(results_file='results_CURVES_dirty_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_dirty_balanced_all-MiniLM-L6-v2', prefix='max_', sizes=[5,10,15,20,25])
+plot_curve(results_file='results_CURVES_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_clean_balanced_all-MiniLM-L6-v2', prefix='', sizes=[5,10,15,20,25])
+plot_curve(results_file='results_CURVES_clean_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_clean_balanced_all-MiniLM-L6-v2', prefix='max_', sizes=[5,10,15,20,25])
+plot_curve(results_file='results_CURVES_dirty_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_dirty_balanced_all-MiniLM-L6-v2', prefix='', sizes=[5,10,15,20,25])
+plot_curve(results_file='results_CURVES_dirty_balanced_all-MiniLM-L6-v2/llm_balancedall-MiniLM-L6-v2_clean_5_way.csv', result_dir='results_CURVES_dirty_balanced_all-MiniLM-L6-v2', prefix='max_', sizes=[5,10,15,20,25])

@@ -18,6 +18,11 @@ target_column_clean = 'label_clean'
 dict_results = {}
 
 
+## For manually annotated prompts
+## LR
+## Compare prediction of model trained on as-generated vs manually cleaned data
+
+
 def compare_quality(method, result_dir, num_labels=5):
 
     method_result_dir = result_dir + '_' + method
@@ -67,7 +72,6 @@ def compare_quality(method, result_dir, num_labels=5):
 
                 pred_orig = pred_orig + list(train_shallow(method='LR', df_train=df_train_orig, df_test=df_test_orig, answer_column='AnswerText', target_column='Score'))
 
-            
             # print(get_confusion_matrix(first=true_scores, second=pred_orig, first_name='True', second_name='Pred Orig'))
             # print(get_confusion_matrix(first=true_scores, second=pred_messy, first_name='True', second_name='Pred LLM'))
             # print(get_confusion_matrix(first=true_scores, second=pred_clean, first_name='True', second_name='Pred LLM (clean)'))
@@ -80,6 +84,6 @@ def compare_quality(method, result_dir, num_labels=5):
     df_results.to_csv(os.path.join(method_result_dir, 'gold_vs_llm_training_' + method + '_' + str(num_labels) +'_way.csv'))
 
 
-compare_quality(method='LR', result_dir='results_clean', num_labels=2)
-compare_quality(method='LR', result_dir='results_clean', num_labels=3)
-compare_quality(method='LR', result_dir='results_clean', num_labels=5)
+# compare_quality(method='LR', result_dir='results_clean', num_labels=2)
+# compare_quality(method='LR', result_dir='results_clean', num_labels=3)
+compare_quality(method='LR', result_dir='results_clean_LR', num_labels=5)

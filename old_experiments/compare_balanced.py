@@ -21,6 +21,10 @@ target_column = 'label'
 dict_results = {}
 
 
+## LR and pretrained SBERT
+## Learning curve with balanced sample of SRA-gen
+## Using as-generated, i.e. not manually cleaned, labels
+
 def compare_same_distribution(method, num_runs=20, num_per_label=range(1,101), num_labels=5, results_dir='results'):
 
     method_results_dir = os.path.join(results_dir + '_' + method)

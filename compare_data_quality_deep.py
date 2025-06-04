@@ -146,6 +146,6 @@ def compare_quality(base_model, result_dir, num_labels=5, num_epochs=10, batch_s
         df_results.to_csv(os.path.join(method_result_dir, 'gold_vs_llm_training_' + base_model_name + '_' + str(num_labels) +'_way.csv'))
 
 
-compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results_v2_run3', num_epochs=5)
+compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results_clean_SBERT', num_epochs=5)
 # compare_quality(base_model='answerdotai/ModernBERT-base', result_dir='results', num_epochs=10)
-# compare_quality(base_model='bert-base-uncased', result_dir='results_run3', num_epochs=10)
+compare_quality(base_model='bert-base-uncased', result_dir='results_clean_BERT', num_epochs=10)

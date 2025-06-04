@@ -65,10 +65,6 @@ def compare_quality(base_model, result_dir, num_labels=5, random_state=2356):
         df_val = df_train.sample(frac=.1, random_state=random_state)
         df_train = df_train.drop(df_val.index)
 
-        # df_train=df_train.head(7)
-        # df_val=df_val.head(7)
-        # df_test=df_test.head(10)
-
         true_scores = list(df_test[target_column_test])
 
         # LOOCV on original data
@@ -117,5 +113,5 @@ def compare_quality(base_model, result_dir, num_labels=5, random_state=2356):
         df_results.to_csv(os.path.join(method_result_dir, 'gold_vs_llm_training_' + base_model + '_' + str(num_labels) +'_way.csv'))
 
 
-compare_quality(base_model='all-mpnet-base-v2', result_dir='results_pretrained')
-# compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results_pretrained')
+# compare_quality(base_model='all-mpnet-base-v2', result_dir='results_pretrained')
+compare_quality(base_model='all-MiniLM-L6-v2', result_dir='results_clean_pretrained')

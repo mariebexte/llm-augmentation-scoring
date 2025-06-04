@@ -20,6 +20,9 @@ target_column = 'label_clean'
 
 dict_results = {}
 
+## Compare training on original data and SRA-gen data with same distribution as in original data.
+## SRA-gen with as-generated labels
+## LR and pretrained SBERT model
 
 def compare_same_distribution(method, result_dir, num_runs=20, num_labels=5):
 
@@ -162,8 +165,8 @@ def compare_same_distribution(method, result_dir, num_runs=20, num_labels=5):
     df_results.to_csv(os.path.join(method_results_dir, 'same_distribution' + method + '_clean_' + str(num_labels) + '_way.csv'))
 
 
-# compare_same_distribution(method='LR', num_labels=5, result_dir='results_clean')
-# compare_same_distribution(method='LR', num_labels=3, result_dir='results_clean')
-# compare_same_distribution(method='LR', num_labels=2, result_dir='results_clean')
+compare_same_distribution(method='LR', num_labels=5, result_dir='results_same_dist_clean_LR')
+# compare_same_distribution(method='LR', num_labels=3, result_dir='results_same_dist_clean_LR')
+# compare_same_distribution(method='LR', num_labels=2, result_dir='results_same_dist_clean_LR')
 
-compare_same_distribution(method='all-MiniLM-L6-v2', num_labels=5, result_dir='results_pretrained_clean')
+compare_same_distribution(method='all-MiniLM-L6-v2', num_labels=5, result_dir='results_same_dist_clean_pretrained')

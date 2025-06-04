@@ -17,6 +17,9 @@ target_column = 'label_clean'
 
 dict_results = {}
 
+## LR
+## Learning curve with balanced sample of SRA-gen
+## Using manually cleaned labels 
 
 def compare_same_distribution(method, result_dir, num_runs=20, num_labels=5):
 

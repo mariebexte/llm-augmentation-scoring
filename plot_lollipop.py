@@ -10,12 +10,7 @@ from matplotlib.gridspec import GridSpec
 plt.rcParams["figure.figsize"] = (8.5,14)
 
 
-def plot_multiple_lolli(df, target_dir, target_col, target_col_prefix):
-
-    gs = GridSpec(2, 2, width_ratios=[1, 0.3], height_ratios=[1, 1], wspace=0.3, hspace=0.4)
-    ax1 = fig.add_subplot(gs[0, 0])
-    ax2 = fig.add_subplot(gs[0, 1])
-
+## For comparison of multiple LLM prediction runs
 def plot_lollipop_multiple(df, target_dir):
 
     sns.set_theme(style="whitegrid")  # set style
@@ -215,81 +210,31 @@ def plot_lollipop(results_file, target_col_prefix=''):
 
     plt.cla()
 
-# plot_lollipop_simple(results_file='results_LR/same_distributionLR_2_way.csv')
-# plot_lollipop(results_file='results_LR/same_distributionLR_2_way.csv')
-
-# plot_lollipop_simple(results_file='results_LR/same_distributionLR_3_way.csv')
-# plot_lollipop(results_file='results_LR/same_distributionLR_3_way.csv')
-
-# plot_lollipop_simple(results_file='results_LR/same_distributionLR_5_way.csv')
-# plot_lollipop(results_file='results_LR/same_distributionLR_5_way.csv')
 
 
-
-# plot_lollipop_simple(results_file='results_clean_LR/same_distributionLR_clean_2_way.csv')
-# plot_lollipop(results_file='results_clean_LR/same_distributionLR_clean_2_way.csv')
-
-# plot_lollipop_simple(results_file='results_clean_LR/same_distributionLR_clean_3_way.csv')
-# plot_lollipop(results_file='results_clean_LR/same_distributionLR_clean_3_way.csv')
-
-# plot_lollipop_simple(results_file='results_clean_LR/same_distributionLR_clean_5_way.csv')
-# plot_lollipop(results_file='results_clean_LR/same_distributionLR_clean_5_way.csv')
-
-
-# plot_lollipop_simple(results_file='results_pretrained_same_dist_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv')
-df_majority = pd.read_csv('results/majority.csv')
-df_llm_data = pd.read_csv('results_pretrained_same_dist_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv')
+## Pretrained SBERT model
+df_majority = pd.read_csv('results_majority/majority.csv')
+df_llm_data = pd.read_csv('results_same_dist_pretrained_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv')
 df_llm_data.rename(columns={'LOOCV orig': 'LOOCV_orig'}, inplace=True)
 df_llm_pred = pd.read_csv('results/llm_scoring_with_majority.csv')
 df_llm_pred['pred_deepseek'] = (df_llm_pred['run_1'] + df_llm_pred['run_2'] + df_llm_pred['run_3'] + df_llm_pred['run_4'] + df_llm_pred['run_5'])/5
 df = pd.merge(left=df_llm_data, right=df_llm_pred, left_on='prompt', right_on='prompt')
 df = pd.merge(left=df, right=df_majority, left_on='prompt', right_on='prompt')
 plot_lollipop_scatter(df=df, target_dir='results_pretrained_same_dist_all-MiniLM-L6-v2', target_col='max_sample_avg')
-# plot_lollipop_leg(results_file='results_pretrained_same_dist_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv', target_col_prefix='max_')
-plot_lollipop(results_file='results_pretrained_same_dist_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv', target_col_prefix='max_')
+plot_lollipop(results_file='results_same_dist_pretrained_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v2_5_way.csv', target_col_prefix='max_')
 
-# plot_lollipop_simple(results_file='results_dist__all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv')
-df_majority = pd.read_csv('results/majority.csv')
-df_llm_data = pd.read_csv('results_dist__all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv')
+## Finetuned SBERT model
+df_majority = pd.read_csv('results_majority/majority.csv')
+df_llm_data = pd.read_csv('results_same_dist_SBERT_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv')
 df_llm_data.rename(columns={'LOOCV orig': 'LOOCV_orig'}, inplace=True)
 df_llm_pred = pd.read_csv('results/llm_scoring_with_majority.csv')
 df_llm_pred['pred_deepseek'] = (df_llm_pred['run_1'] + df_llm_pred['run_2'] + df_llm_pred['run_3'] + df_llm_pred['run_4'] + df_llm_pred['run_5'])/5
 df = pd.merge(left=df_llm_data, right=df_llm_pred, left_on='prompt', right_on='prompt')
 df = pd.merge(left=df, right=df_majority, left_on='prompt', right_on='prompt')
 plot_lollipop_scatter(df=df, target_dir='results_dist__all-MiniLM-L6-v2', target_col='max_sample_avg')
-# plot_lollipop_leg(results_file='results_dist__all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv', target_col_prefix='max_')
-plot_lollipop(results_file='results_dist__all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv', target_col_prefix='max_')
+plot_lollipop(results_file='results_same_dist_SBERT_all-MiniLM-L6-v2/same_distributionall-MiniLM-L6-v25_way.csv', target_col_prefix='max_')
 
 
-###
-# Combine LLM Labels, LOOCV and models trained on synthetic data
-# df_majority = pd.read_csv('results/majority.csv')
-# df_llm_data = pd.read_csv('results_LR/same_distributionLR_5_way.csv')
-# df_llm_data.rename(columns={'LOOCV orig': 'LOOCV_orig'}, inplace=True)
-# # df_llm_pred = pd.read_csv('llm_preds_1/f1_scores.csv')
-# # df_llm_pred.rename(columns={'macro_f1': 'pred_deepseek'}, inplace=True)
-# df_llm_pred = pd.read_csv('results/llm_scoring_with_majority.csv')
-# df_llm_pred['pred_deepseek'] = (df_llm_pred['run_1'] + df_llm_pred['run_2'] + df_llm_pred['run_3'] + df_llm_pred['run_4'] + df_llm_pred['run_5'])/5
-# df = pd.merge(left=df_llm_data, right=df_llm_pred, left_on='prompt', right_on='prompt')
-# df = pd.merge(left=df, right=df_majority, left_on='prompt', right_on='prompt')
-# print(df[['pred_deepseek', 'LOOCV_orig', 'sample_avg', 'f1_majority']].mean())
-# plot_lollipop_scatter(df=df, target_dir='results')
-
-
-# df_full = None
-# for run in range(1, 6):
-
-#     df_results = pd.read_csv('llm_preds_' + str(run) + '/f1_scores.csv')
-#     df_results.columns = ['prompt', 'llm_preds_' + str(run)]
-
-#     if df_full is None:
-#         df_full  =df_results
-    
-#     else:
-#         df_full=pd.merge(left=df_full, right=df_results, left_on='prompt', right_on='prompt')
-    
-# print(df_full)
-# plot_lollipop_multiple(df=df_full)
-
-# df = pd.read_csv('results/llm_scoring_with_majority.csv')
-# plot_lollipop_multiple(df=df, target_dir='results')
+## Plot comparison of multiple runs of LLM prediction
+df = pd.read_csv('results/llm_scoring_with_majority.csv')
+plot_lollipop_multiple(df=df, target_dir='results')

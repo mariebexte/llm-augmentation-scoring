@@ -81,5 +81,5 @@ def compare_same_distribution(base_model, result_dir, num_runs=20, num_labels=5,
     df_results.to_csv(os.path.join(method_result_dir, 'llm_balanced' + base_model + '_clean_' + str(num_labels) + '_way.csv'))
 
 
-compare_same_distribution(base_model='all-MiniLM-L6-v2', result_dir='results_clean_balanced', num_labels=5)
-# compare_same_distribution(base_model='all-MiniLM-L6-v2', result_dir='results_dirty_balanced', num_labels=5, target_column='label', sizes=[2,3,4,5,6,7,14,28,50,100])
+compare_same_distribution(base_model='all-MiniLM-L6-v2', result_dir='results_CURVES_clean_balanced_all-MiniLM-L6-v2', num_labels=5, target_column='label_clean')
+compare_same_distribution(base_model='all-MiniLM-L6-v2', result_dir='results_CURVES_dirty_balanced_all-MiniLM-L6-v2', num_labels=5, target_column='label')

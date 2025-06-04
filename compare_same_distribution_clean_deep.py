@@ -155,5 +155,5 @@ def compare_same_distribution(base_model, result_dir, num_runs=20, num_labels=5,
     df_results.to_csv(os.path.join(method_results_dir, 'same_distribution' + base_model_name + '_clean_' + str(num_labels) + '_way.csv'))
 
 
-compare_same_distribution(base_model='all-MiniLM-L6-v2', num_labels=5, result_dir='results_clean', num_epochs=5)
-# compare_same_distribution(base_model='bert-base-uncased', num_labels=5, result_dir='results_clean', num_epochs=10)
+compare_same_distribution(base_model='all-MiniLM-L6-v2', num_labels=5, result_dir='results_same_dist_clean_SBERT', num_epochs=5)
+compare_same_distribution(base_model='bert-base-uncased', num_labels=5, result_dir='results_same_dist_clean_BERT', num_epochs=10)

@@ -1,11 +1,11 @@
 import os
 
 import pandas as pd
-from utils import get_macro_f1
+from metrics import calculate_macro_f1
 
 data_source = 'data/SRA_SEB'
 target_column = 'Score'
-results_dir = 'results'
+results_dir = 'results_majority'
 
 if not os.path.exists(results_dir):
     os.mkdir(results_dir)
@@ -21,7 +21,7 @@ for prompt in df_prompts['id']:
 
     most_frequent_label = max(label_dict, key=label_dict.get)
     
-    results[prompt] = get_macro_f1(y_true=df[target_column], y_pred=[most_frequent_label]*len(df))
+    results[prompt] = calculate_macro_f1(y_true=df[target_column], y_pred=[most_frequent_label]*len(df))
 
 df_results = pd.DataFrame.from_dict(results, orient='index')
 df_results.columns=['f1_majority']
